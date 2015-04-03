@@ -1,0 +1,16 @@
+config:
+  enabled: false
+  database:
+    mode: sqlite
+    tableprefix: karolek_
+    mysql:
+      host: localhost
+      port: 3306
+      user: root
+      pass: ''
+      name: minecraft
+    sqlite:
+      name: minecraft.db
+  socket:
+    password: ZAQ!2wsx
+    port: 1337

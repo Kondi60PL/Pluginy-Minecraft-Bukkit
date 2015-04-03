@@ -1,0 +1,6 @@
+config:
+  chance:
+    water: 1.0
+    lava: 1.0
+    obsidian: 1.0
+  radius: 1

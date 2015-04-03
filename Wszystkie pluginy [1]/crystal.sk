@@ -1,0 +1,30 @@
+on damage of ender crystal:
+	cancel event
+on damage:
+	victim is ender crystal
+	attacker is player
+	chance of 15%:
+		chance of 35%:
+			spawn zombie above attacker
+			apply fire resistance 99 to last spawned entity for 99 days
+			apply strength 1 to last spawned entity for 99 days
+			apply regeneration 1 to last spawned entity for 10 seconds
+			spawn skeleton above attacker
+			apply fire resistance 99 to last spawned entity for 99 days
+			chance of 5%:
+				spawn blaze above victim
+				apply fire resistance 99 to last spawned entity for 99 days
+on damage of ender crystal:
+	set maximum health of victim to 7000
+command /zrespcrystal:
+	trigger:
+		player has permission "mcpl.crystal"
+		spawn ender crystal at the targeted block
+		set maximum health of last spawned entity to 7000
+		set health of last spawned entity to 7000
+		heal last spawned entity
+every 1 hour:
+	send "&cZresp endercrystal na random koordach, //schematic load kamon i /zrespcrystal" to all ops
+on damage of ender crystal:
+	world of victim is "world"
+	cancel event

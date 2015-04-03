@@ -1,0 +1,31 @@
+MySQL:
+  Host: localhost:3306
+  Username: root
+  Password: qwerty
+  Database: statystyki
+config:
+  guild:
+    items:
+    - 322:1 64
+    world: world
+    spawn: 500
+    guild: 250
+    promien: 25
+    maxPlayers:
+      min: 20
+      max: 30
+      resizeUp: 5
+    teleport:
+      delay: 5
+    join:
+      cost: 8
+    alliance:
+      max: 3
+      cost: 4
+    explode:
+      time: 120
+    setlider:
+    - 322:1 64
+  user:
+    startPoints: 500
+  tag: '&8[&2%tag%&8]'

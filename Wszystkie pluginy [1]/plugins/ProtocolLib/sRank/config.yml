@@ -1,0 +1,7 @@
+DataSource:
+  mySQLTablename: gracze
+  mySQLUsername: csrv_424543
+  mySQLDatabase: csrv_424543
+  mySQLPort: '3306'
+  mySQLHost: mysql.csrv.pl
+  mySQLPassword: '0e059b6f2e30ea113221'

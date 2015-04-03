@@ -1,0 +1,12 @@
+name: EasyHardChat
+main: mc.fusherka.ChatPlugin.ChatPlugin
+version: 1.0
+author: FusHerkA
+commands:
+  chat:
+    permission: chat.manage
+    description: Zarzadzanie pluginem.
+permissions:
+  chat.manage:
+    default: op
+    description: Dostep do komendy /chat.

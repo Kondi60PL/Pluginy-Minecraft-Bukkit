@@ -1,0 +1,120 @@
+config:
+  czas:
+    anti-relog: 00:00:30
+    tnt-deny-place: 00:00:30
+  protection:
+    min-hour: 23
+    max-hour: 10
+  tag:
+    min-lenght: 3
+    max-lenght: 5
+  ranking:
+    domyslny: 1000
+  cuboid:
+    domyslny: 50
+    message: true
+  nazwa:
+    min-lenght: 3
+    max-lenght: 32
+  color:
+    neutral: '&4'
+    sojusz: '&2'
+    gildia: '&a'
+  chat:
+    czlonek: '&5[&9%SKROT%&5] '
+    do-gildii: '&8[&2GILDIA&8]'
+    do-sojusznikow: '&8[&2SOJUSZE&8]'
+  cena:
+    vip:
+      zaloz:
+        items:
+        - DIAMOND 32
+        - TNT 32
+        - EMERALD 32
+        - OBSIDIAN 32
+        - GOLDEN_APPLE 32
+        not-enough: '&2Aby zalozyc gildie potrzebujesz &2&o32 diamenty&2, &2&o32 TNT&2,
+          &2&o32 emeraldy&2, &2&o32 obsydianu&2 oraz &2&o32 zlotych jablek&2'
+    default:
+      zaloz:
+        items:
+        - DIAMOND 34
+        - TNT 34
+        - EMERALD 34
+        - OBSIDIAN 34
+        - GOLDEN_APPLE 34
+        not-enough: '&2Aby zalozyc gildie potrzebujesz &2&o34 diamenty&2, &2&o34 TNT&2,
+          &2&o34 emeraldy&2, &2&o34 obsydianu&2 oraz &2&o34 zlotych jablek&2'
+      lider:
+        items:
+        - DIAMOND 34
+        not-enough: '&2Aby zmienic lidera potrzebujesz &2&o34 diamenty&2'
+      zmien:
+        items:
+        - EMERALD 32
+        not-enough: '&2Aby zmienic nazwe gildii potrzebujesz &2&o32 emeraldy&2'
+  messages:
+    zabojstwo: '&4> &2Gracz {zabity-gildia}&3{zabity} &2zostal zabity przez {zabojca-gildia}&3{zabojca} &2(&3{punkty}&2) &4<'
+    gildia-dolacz: '&4> &2Gracz &3{sender-name} &2dolaczyl do twojej gildii &4<'
+    gracz-dolacz: '&4> &2Dolaczyles do gildii &2[&3{gildia-skrot}&2]&2 &4<'
+    gildia-lider: '&4> &2Gracz &3{gracz-name} &2zostal nowym liderem gildii &2[&3{gildia-skrot}&2]&2 &4<'
+    gildia-opusc: '&4> &2Gracz &3{sender-name} &2opuscil twoja gildie. &4<'
+    gracz-opusc: '&4> &2Opusciles gildie &2[&3{gildia-skrot}&2]&2 &4<'
+    gildia-powieksz: '&4> &2Gracz &3{sender-name} &2powiekszyl cuboid gildii &2[&3{gildia-skrot}&2]
+      &2(promien &3{gildia-cuboid}&2) &4<'
+    gildia-rozwiaz: '&4> &2Gracz &3{sender-name} &2rozwiazal gildie 
+	  &2[&3{gildia-skrot}&2] &3{gildia-nazwa} &4<'
+    sojusz-zawrzyj: '&4> &2Gildia &2[&3{sojusznik-skrot}&2]} &2zawarla sojusz z gildia &2[&3{gildia-skrot}&2] &4<'
+    sojusz-propozycja: |
+      &4> &2Gildia &3{sojusznik-skrot} &2chce zawrzec sojusz z twoja gildia. &4<
+      &4> &2Aby przyjac sojusz wpisz &2/g sojusz {sojusznik-skrot} &4<
+    gracz-propozycja: '&4> &2Wyslano propozycje sojuszu do gildii &2[&3{sojusznik-skrot}&2] &4<'
+    sojusz-cofnij: '&4> &2Gildia &2[&3{sojusznik-skrot}&2] &2cofnela propozycje sojuszu z twoja
+      gildia. &4<'
+    gracz-cofnij: '&4> &2Cofnieto propozycje sojuszu z gildia &2[&3{sojusznik-skrot}&2] &4<'
+    sojusz-zerwij: '&4> &2Gildia &2&2[&3{gildia-skrot}&2] &2zerwala sojusz z gildia &2[&3{sojusznik-skrot}&2] &4<'
+    gildia-wyrzuc: '&4> &2Gracz &3{gracz-name} &2zostal wyrzucony z gildii przez gracza
+      &3{sender-name}&2 &4<'
+    gracz-wyrzuc: '&4> &2Zostales wyrzucony z gildii &2[&3{gildia-skrot}&2] &2przez gracza &3{sender-name}&2 &4<'
+    gildia-zaloz: '&4> &2Gracz &3{sender-name} &2zalozyl gildie 
+	  &2[&3{gildia-skrot}&2] &3{gildia-nazwa}  &4<'
+    gildia-zapros: '&4> &2Gracz &3{sender-name} &2zaprosil gracza &3{gracz-name} &2do
+      twojej gildii. &4<'
+    gracz-zapros: |
+      &4> &2Zostales zaproszony do gildii &2[&3{gildia-skrot}&2]&2 &4<
+      &4> &2Aby dolaczyc wpisz &2/g dolacz {gildia-skrot}&2. &4<
+    gildia-cofnij: '&4> &2Gracz &3{sender-name} &2cofnal zaproszenie gracza &3{gracz-name}&2. &4<'
+    zaproszenie-cofnij: '&4> &2Zaproszenie do gildii &2[&3{gildia-skrot}&2]} &2zostalo cofniete
+      przez &3{sender-name}&2. &4<'
+    gildia-zastepca: '&4> &2Lider &3{sender-name} &2mianowal gracza &3{gracz-name} &2zastepca
+      gildii &4<'
+    gildia-usun: '&4> &2Lider &3{sender-name} &2usunal zastepce gildii  &4<'
+    friendly-fire-wlaczone: '&4> &2Ogien sojuszniczy w gildii zostal &2wlaczony &2przez
+      &3{sender-name}&2  &4<'
+    friendly-fire-wylaczone: '&4> &2Ogien sojuszniczy w gildii zostal &2wylaczony &2przez
+      &3{sender-name}&2 &4<'
+  info:
+    gildia:
+    - '&4> &7*()*()* INFORMACJE O GILDII *()*()*'
+    - '&4> &2[{gildia-skrot}]  &3{gildia-nazwa}'
+    - '&4> &2Lider: &3{gildia-lider}'
+    - '&4> &2Zastepca: &3{gildia-zastepca}'
+    - '&4> &2Rozmiar cuboida: &3{gildia-cuboid}'
+    - '&4> &2Czlonkowie gildii: &3{gildia-czlonkowie}'
+    - '&4> &7*()*()*()*  *()*()*()*()* *()*()*()*'
+    gracz:
+    - '&4> &7*()*()* INFORMACJE O GRACZU *()*()*'
+    - '&4> &2Gracz: &3{gracz-nick}'
+    - '&4> &2Gildia: &3{gracz-gildia}'
+    - '&4> &2Ranking: &3{gracz-ranking}'
+    - '&4> &2Zabojstwa: &3{gracz-zabojstwa}'
+    - '&4> &2Smierci: &3{gracz-smierci}'
+    - '&4> &7*()*()*()*  *()*()*()*()* *()*()*()*'
+mysql:
+    host: s9.crafthost.pl
+    base: svr13101
+    user: svr13101
+    pass: "AAaa121212"
+maju:
+  loadMySQLOnLoad: true
+  createTableOnLoad: false

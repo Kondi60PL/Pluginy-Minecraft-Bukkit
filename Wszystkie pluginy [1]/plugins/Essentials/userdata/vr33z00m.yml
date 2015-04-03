@@ -1,0 +1,28 @@
+timestamps:
+  logout: 1423396067680
+  login: 1423392673625
+  lastteleport: 1423397727586
+ipAddress: 25.164.251.182
+lastlocation:
+  world: world1
+  x: -17.222036118478233
+  y: 88.53135215081488
+  z: 196.31311609297083
+  yaw: 191.94812
+  pitch: 69.60003
+logoutlocation:
+  world: world1
+  x: 22.00319752489377
+  y: 69.0
+  z: 194.022312107204
+  yaw: 48.38057
+  pitch: 26.249973
+homes:
+  home:
+    world: serwerHardcore
+    x: -389.70994105439985
+    y: 4.0
+    z: -395.9331529161608
+    yaw: -355.0504
+    pitch: 58.50002
+socialspy: false

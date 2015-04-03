@@ -1,0 +1,11 @@
+enable: true
+debug: true
+mysql:
+  host: 94.23.14.31
+  port: 0
+  database: s31591
+  username: s31591
+  password: aZk9dn6NMy
+  prefix: Gildie
+warminplayers: 5
+itemstocreate: 264:0-64;388:0-64;0002:0-64;260:0-64

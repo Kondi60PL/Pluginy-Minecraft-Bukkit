@@ -1,0 +1,31 @@
+config:
+  mysql:
+    prefix: 'tools_'
+  teleport:
+    delay: 10
+  clear:
+    time: 600
+  afk:
+    enabled: true
+    time: 600
+  slotmanager:
+    slots: 500
+    motd: '&8>> &2CUBE&74U&8.pl &2::|:: &6Nowatorski serwer survival!'
+    whitelistmotd: '&9Obecnie na serwerze trwa przerwa techniczna!\n&9Planowane zakonczenie: &cgodzina 20:00&9!'
+  playerdeath:
+    head: true
+    lightning: true
+  welcomemotd:
+  - '&8 > &2CUBE&74U&8.pl'
+  - '&8 > &2Witaj, &6%player% &2na serwerze!'
+  - '&8 > &2Odwiedzilo nas juz &6%visited% &2graczy!'
+  - '&8 > &2WWW: &6http://CUBE4U.net &8|| &2TeamSpeak: &6ts.CUBE4U.net'
+  socialcommands:
+  - tell
+  - msg
+  - m
+  - t
+  - whisper
+  - reply
+  - r
+  - rm

@@ -1,0 +1,36 @@
+File:
+  LogToFiles: true
+Log:
+  PlayerJoins: true
+  PlayerQuit: true
+  PlayerChat: true
+  PlayerCommands: true
+  PlayerDeaths: true
+  PlayerEnchants: true
+  Pvp: true
+  PlayerBucketPlace: true
+  ConsoleCommands: true
+  DateFormat: MM-dd-yyyy HH:mm:ss
+  PlayerSignText: true
+  SeparateFolderforStaff: true
+  PlayerNamestoLowerCase: false
+  LogOnlyStaff: false
+BlackList:
+  LogBlackListedBlocks: true
+  Blocks:
+  - '7'
+  - '46'
+  - '57'
+Commands:
+  BlackListCommands: false
+  BlackListCommandsForMySQL: false
+  CommandsToBlock:
+  - /login
+  - /changepassword
+  - /register
+MySQL:
+  Enabled: false
+  Server: Server Address eg.Localhost
+  Database: Place Database name here
+  User: Place User of MySQL Database here
+  Password: Place User password here

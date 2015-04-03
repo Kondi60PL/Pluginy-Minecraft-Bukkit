@@ -1,0 +1,75 @@
+groups:
+  default:
+    permissions:
+    - modifyworld.*
+    worlds:
+      world: {}
+  Gracz:
+    default: true
+    worlds:
+      world:
+        default: true
+    permissions:
+    - essentials.kits.enchant
+    - essentials.delhome
+    - essentials.sethome
+    - essentials.home
+    - essentials.kits.gracz
+    - essentials.kit
+    - essentials.ignore
+    - essentials.tpdeny
+    - essentials.r
+    - essentials.motd
+    - essentials.helpop
+    - essentials.ping
+    - -bukkit.command.version
+    - -bukkit.command.plugins
+    - essentials.msg
+    - essentials.tpaccept
+    - essentials.tpa
+    - essentials.spawn
+    prefix: '&7'
+  VIP:
+    permissions:
+    - essentials.sethome.multiple.vip
+    - essentials.kits.vip
+    - essentials.feed
+    - essentials.back.ondeath
+    - essentials.back
+    - essentials.workbench
+    - essentials.tpahere
+    - essentials.hat
+    - tguildsex.free
+    inheritance:
+    - Gracz
+    prefix: '&7[&6VIP&7]&b'
+  Wlasciciel:
+    permissions:
+    - '*'
+    prefix: '&4&l'
+users:
+  FusHerkA:
+    permissions:
+    - '*'
+    group:
+    - Wlasciciel
+  ZenezPL1:
+    permissions:
+    - '*'
+    group:
+    - Wlasciciel
+  minecraft12w23b:
+    group:
+    - Wlasciciel
+  Enisho:
+    group:
+    - VIP
+  KinKstoN1999:
+    group:
+    - VIP
+  spoksik1234:
+    group:
+    - VIP
+  asdad:
+    group:
+    - VIP

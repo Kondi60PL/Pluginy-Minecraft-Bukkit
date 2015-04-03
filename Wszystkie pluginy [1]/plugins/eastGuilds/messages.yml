@@ -1,0 +1,111 @@
+messages:
+  ##################################
+  #                                #
+  #             BLEDY              #
+  #                                #
+  ##################################
+  maxlimit: '&4Blad: &cTwoja gildia ma juz maksymalny limit czlonkow!'
+  maxsize: '&4Blad: &cTwoja gildia ma juz maksymalny rozmiar!'
+  hereisguild: '&4Blad: &cW poblizu jest gildia!'
+  noonline: '&4Blad: &cZalozyciel innej gildii nie jest online!'
+  cantleave: '&4Blad: &cLider i zalozyciel nie moga opuscic gildii!'
+  isguild: '&4Blad: &cIstnieje juz gildia z taka nazwa!'
+  haveguild: '&4Blad: &cMasz juz gildie!'
+  noinguildarea: '&4Blad: &cMusisz byc na terenie swojej gildii!'
+  maxplayers: '&4Blad: &cW Twojej gildii znajduje sie juz maksymalna ilosc czlonkow!'
+  cantfindguild: '&4Blad: &cTaka gildia nie istnieje!'
+  cantfindplayer: '&4Blad: &cTen gracz nie jest w Twojej gildii!'
+  noonline: '&4Blad: &cGracz nie jest online!'
+  noowner: '&4Blad: &cNie jestes zalozycielem!'
+  noleader: '&4Blad: &cNie jestes liderem!'
+  noguild: '&4Blad: &cNie posiadasz gildii!'
+  noyourguild: '&4Blad: &cTo nie Twoja gildia!'
+  mustbeaplayer: '&4Blad: &cMusisz byc graczem, aby wykonac ta komende!'
+  nopermission: '&4Blad: &cNie masz praw do tej komendy!'
+  notenoughtitems: '&4Blad: &cNie masz wystarczajacej ilosci przedmiotow!'
+  notenoughplayers: '&4Blad: &cAby moc wylosowac efekt, ilosc czlonkow online musi wynosic minimum 50% ogolnej liczby czlonkow!'
+  doesnthaveguild: '&4Blad: &cNie posiadasz gildii!'
+  noinyourguild: '&4Blad: &cTen gracz nie jest w Twojej gildii!'
+  cantattack: '&4Blad: &cPvP miedzy czlonkami gildii/sojuszu jest wylaczone!'
+  noinvite: '&4Blad: &cNie masz zaproszenia do tej gildii!'
+  canceldelete: '&4Blad: &cUsuwanie gildii zostalo przerwane!'
+  mustwait: '&4Blad: &cPrzed kolejnym losowaniem efektu musisz poczekac godzine!'
+  cantexpire: '&4Blad: &cNie mozesz przedluzyc gildii gdy jest jeszcze wazna!'
+  maxalliances: '&4Blad: &cTwoja gildia ma juz maksymalna ilosc sojuszy!'
+  ##################################
+  #                                #
+  #          INFORMACJE            #
+  #                                #
+  ##################################
+  reloaded: '&aPlik koniguracyjny zostal przeladowany!\n&aPlik jezykowy zostal przeladowany!'
+  pvpon: '&c&oPvP w gildii zostalo wlaczone!'
+  pvpoff: '&a&oPvP w gildii zostalo wylaczone!'
+  addlimit: '&9Limit czlonkow zostal zwiekszony!'
+  resized: '&9Powiekszono teren gildii!'
+  confirmdelete: '&9Potwierdz usuniecie gildii komenda &c/g usun&9!'
+  alliancereq: '&9Gildia &8[&c%tag&8] &9chce zawrzec sojusz z Twoja gildia!'
+  alliancereqsend: '&9Wyslano zaproszenie do sojuszu!'
+  alliancereqback: '&9Cofnieto zaproszenie do sojuszu!'
+  newinvite: '&9Zostales zaproszony do gildii &8[&c%tag&8]&9!\n&9Aby zaakceptowac zaproszenie uzyj komendy &c/g dolacz %tag&9!'
+  sendinvite: '&9Zaprosiles gracza &c%player &9do swojej gildii!'
+  backinvite: '&9Zaproszenie do gildii zostalo cofniete!'
+  homeset: '&9Ustawiono dom gildii!'
+  yourguild: '&aWkroczyles na teren swojej gildii!'
+  allianceguild: '&9Wkroczyles na teren gildii %name &8[&9%tag&8]&9!'
+  enemyguild: '&cWkroczyles na teren gildii %name &8[&c%tag&8]&c!'
+  outguild: '&aOpusciles teren swojej gildii!'
+  enemyonguild: '&4Uwaga! Intruz na terenie Twojej gildii!'
+  allianceonguild: '&9Uwaga! Sojusznik na terenie Twojej gildii!'
+  newowner: '&9Zalozyciel gildii zostal zmieniony!'
+  nowowner: '&9Awansowales na zalozyciela gildii!'
+  newleader: '&9Lider gildii zostal zmieniony!'
+  nowleader: '&9Awansowales na lidera gildii!'
+  firstlist: '&9=======&8[ &cNazwa &9- &cTag &9- &cZalozyciel &8]&9======='
+  elementlist: '  &8> &c%name &9- &c%tag &9- &c%owner'
+  lastlist: '&9======================================'
+  timechecker: '&9Twoja gildia wygasa &c%date&9!'
+  addexpire: '&9Przedluzono waznosc gildii o 7 dni!'
+  ##################################
+  #                                #
+  #          DLUGIE INFO           #
+  #                                #
+  ##################################
+  #mainhelp: '&9Komendy systemu gildii:\n&c/gildia zaloz <tag> <nazwa> &9- zakladanie gildii\n&c/gildia zapros <gracz> &9- wysyla/cofa zaproszenie do gildii\n&c/gildia dolacz <tag> &9- akceptuje zaproszenie do wybranej gildii\n&c/gildia wyrzuc <gracz> &9- wyrzuca gracza z gildii\n&c/gildia opusc &9- opuszcza gildie\n&c/gildia lider <gracz> &9- przekazuje lidera gildii\n&c/gildia zalozyciel <gracz> &9- przekazuje zalozyciela gildii\n&c/gildia limit &9- zwieksza limit czlonkow w gildii o 1\n&c/gildia usun &9- usuwa gildie\n&c/gildia info <tag> &9- podstawowe informacje o gildii\n&c/gildia lista &9- lista wszystkich gildii\n&c/gildia sojusz <tag> &9- zarzadzanie sojuszami'
+  mainadminhelp: '&9=======&8[ &cKomendy administratora systemu gildii &8]&9=======\n\n &8> &c/ga usun <tag> &9- usuwa gildie\n &8> &c/ga tp <tag> &9- teleportuje do gildii\n &8> &c/ga zbanuj <tag> <czas> <powod> &9- banuje czlonkow gildii\n &8> &c/ga odbanuj <tag> &9- odbanowywuje gildie\n &8> &c/ga lider <tag> &9- usuwa lidera gildii\n &8> &c/ga wyrzuc <tag> <gracz> &9- wyrzuca gracza z danej gildii\n &8> &c/ga reload &9- przeladowywuje plugin\n&9====================================='
+  tagandnamehelp: '&9Tag oraz nazwa gildii musza byc alafanumeryczne! Tag musi miec min. 2 znaki, max. 4; nazwa min. 2 znaki, max. 32!'
+  info: '&9=======&8[ &9Gildia: &c%tag &8]&9=======\n   &8> &9Pelna nazwa: &c%name\n   &8> &9Zalozyciel: &c%owner\n   &8> &9Lider: &c%leader\n   &8> &9Rozmiar gildii: &c%size*%size\n   &8> &9Waznosc gildii: &c%expire\n   &8> &9PvP w gildii: &c%pvp\n   &8> &9Czlonkow: &c%members&9/&c%limit&9, online: &c%online\n   &8> &9Czlonkowie: &c%players\n   &8> &9Sojusze: &c%alliances'
+  mainhelp : '&9=======&8[ &cKomendy systemu gildii &8]&9=======\n &8> &c/g zaloz <tag> <nazwa> &9 - tworzy gildie\n &8> &c/g zapros <gracz> &9 - zaprasza gracza do gildii\n &8> &c/g wyrzuc <gracz> &9 - wyrzuca gracza z gildii\n &8> &c/g dolacz <tag> &9 - dolacza do gildii\n &8> &c/g opusc &9 - opuszcza gildie\n &8> &c/g lider <gracz> &9 - zmienia lidera gildi\n &8> &c/g zalozyciel <gracz> &9 - zmienia zalozyciela gildii\n &8> &c/g pvp &9 - zmienia status PvP w gildii\n &8> &c/g sojusz <tag> &9 - tworzy/usuwa/akceptuje zaproszenie do sojuszu\n &8> &c/g usun &9 - usuwa gildie\n &8> &c/g info <tag> &9 - wyswietla informacje o gildii\n &8> &c/g lista &9 - wyswietla liste wszystkich gildii\n &8> &c/g limit &9 - zwieksza limit czlonkow w gildii o 1\n &8> &c/g powieksz &9 - zwieksza rozmiar terenu gildii\n &8> &c/g efekt &9 - losuje efekt dla gildii\n &8> &c/g dom &9 - teleport do domu gildii\n &8> &c/g ustawdom &9 - ustawia dom gildii\n&9===================================='
+  ##################################
+  #                                #
+  #              POMOC             #
+  #                                #
+  ##################################
+  leaderhelp: '&9Uzyj &c/g lider <gracz>&9!'
+  ownerhelp: '&9Uzyj &c/g zalozyciel <gracz>&9!'
+  kickhelp: '&9Uzyj &c/g wyrzuc <gracz>&9!'
+  invitehelp: '&9Uzyj &c/g zapros <gracz>&9!'
+  createhelp: '&9Uzyj &c/g zaloz <tag> <nazwa>&9!'
+  joinhelp: '&9Uzyj &c/g dolacz <tag>&9!'
+  alliancehelp: '&9Uzyj &c/g sojusz <tag>&9!'
+  adminbanhelp: '&9Uzyj &c/ga zbanuj <tag> <czas> <powod>&9!'
+  adminunbanhelp: '&9Uzyj &c/ga odbanuj <tag>&9!'
+  admindeletehelp: '&9Uzyj &c/ga usun <tag>&9!'
+  admintphelp: '&9Uzyj &c/ga tp <tag>&9!'
+  adminkickhelp: '&9Uzyj &c/ga wyrzuc <tag> <gracz>&9!'
+  adminleaderhelp: '&9Uzyj &c/ga lider <tag>&9!'
+  ##################################
+  #                                #
+  #          BROADCASTY            #
+  #                                #
+  ##################################
+  createbc: '&9Gildia &c%name &9z tagiem &8[&c%tag&8] &9zostala utworzona przez &c%player&9!'
+  deletebc: '&9Gildia &c%name &9z tagiem &8[&c%tag&8] &9zostala usunieta przez &c%player&9!'
+  expirebc: '&9Gildia &c%name &9z tagiem &8[&c%tag&8] &9przekroczyla swoja waznosc! Jej koordynaty to x: %x, z: %z!'
+  joinbc: '&9Gracz &c%player &9dolaczyl do gildii &8[&c%tag&8]&9!'
+  leavebc: '&9Gracz &c%player &9opuscil gildie &8[&c%tag&8]&9!'
+  effectbc: '&9Gildia &8[&c%tag&8] &9wylosowala efekt &c%effect &8(&c%level&8) &9na okres &c%time&9!'
+  kickbc: '&9Gracz &c%player &9zostal wyrzucony z gildii &8[&c%tag&8]&9!'
+  deletealliancebc: '&9Gildia &8[&c%tag&8] &9zerwala sojusz z gildia &8[&c%2tag&8]&9!'
+  createalliancebc: '&9Gildia &8[&c%tag&8] &9zawarla sojusz z gildia &8[&c%2tag&8]&9!'
+  adminbanbc: '&4Administrator &c%player &4zbanowanal gildie &c%name &8[&c%tag&8]&4!'
+  adminunbanbc: '&4Administrator &c%player &4odbanowanal gildie &c%name &8[&c%tag&8]&4!'

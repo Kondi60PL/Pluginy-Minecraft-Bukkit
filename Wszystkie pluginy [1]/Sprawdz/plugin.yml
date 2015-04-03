@@ -1,0 +1,6 @@
+name: Sprawdzanie
+version: 2.0
+main: com.gmail.shymqntv.sprawdz.Main
+commands:
+  sprawdz:
+  czysty:

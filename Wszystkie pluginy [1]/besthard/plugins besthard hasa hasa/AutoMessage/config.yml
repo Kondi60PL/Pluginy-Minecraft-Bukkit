@@ -1,0 +1,34 @@
+#  ----------------------------------------------------
+#  AutoMessage Configuration File
+#  ----------------------------------------------------
+#  Message Configuration:
+#     Messages are handled in lists to allow for advanced customization!
+#     Feel free to add color codes by using & in your messages!
+#     To split a message onto multiple lines use the \n delimiter!
+#     Lines starting with / will be run as a command!
+#     To add single apostrophes into a message use ''.
+#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+#     If you are unfamiliar with YAML use the in-game commands: /am help
+
+settings:
+  enabled: true
+  min-players: 0
+  log-to-console: false
+message-lists:
+  json:
+    enabled: true
+    interval: 100
+    expiry: -1
+    random: false
+    messages:
+    - '{text:"&aNie wiesz jaki drop? &6Kliknij na ta wiadomosc",clickEvent:{action:run_command,value:"/stone"}}'
+    - '{text:"&aKliknij tutaj a otworzy ci sie nasz sklep!",clickEvent:{action:open_url,value:"http://easyhard.eu/vip.php"}}'
+  regular:
+    enabled: true
+    interval: 120
+    expiry: -1
+    random: false
+    messages:
+    - '&7&l--> &6Milej gry zyczy administracja EasyHard.EU &7&l<--'
+    - '&7&l--> &6Sklep http://EasyHard.EU/vip.php &7&l<--'
+    - '&7&l--> &6Widzisz kogos kto gra nie uczciwie? Zglos to na /helpop &7&l<--'

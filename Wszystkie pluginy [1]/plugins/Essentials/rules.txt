@@ -1,0 +1,10 @@
+&4&lRegulamin serwera EasySV
+&9[1] &fZakaz uzywania &c&lCHEATOW.
+&9[2] &fZakaz &c&lMultiKont &fna serwerze.
+&9[3] &fZakaz &c&lwulgaryzmów.
+&9[4] &fBezwzgledny Zakaz &c&lReklamowania &0sie na kazdy sposób.
+&9[5] &fZakaz uzywania bugów na serwerze.
+&9[6] &fAdministracja nie odpowiada za stracone Itemki.
+&9[7] &fAdministracja nie odpowiada za bledy w SMS i nie przyjscie kodu SMS
+&9[8] &fZakaz nadużywania &c&lCaps Lock&0'&ca&f.
+&9[9] &fNie pros Administracje o &c&lItemki &f(Bo i tak nie dostaniesz).

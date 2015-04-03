@@ -1,0 +1,57 @@
+# 
+# Sync is an advanced feature of MaxBans.
+# It only applies to server owners who want to BAN/etc Players using a WEBPAGE, such as PHP Script
+# Or owners who want two servers to have the SAME banlist!
+# This option is in BETA! I take no responsibility if it breaks, though I will endeaver to fix it.
+version: 2.0
+lockdown: false
+lockdown-reason: ''
+auto-dupeip: false
+history-expirey-minutes: 10080
+warnings:
+  expirey-in-minutes: 4320
+  actions:
+    '2': '/kick {name} Final Warning: \n{reason}'
+    '3': /tempban {name} 1 hour Reached Max Warnings:\n{reasons}
+  max: 3
+update:
+  type: NO_DOWNLOAD
+default-reason: Admin ma zawsze racje
+appeal-message: Admin ma zawsze racje
+color:
+  primary: f
+  secondary: a
+kick-colors:
+  reason: f
+  regular: f
+  banner: f
+  time: f
+override-commands: true
+chat-commands:
+- me
+- say
+notify: true
+filter-names: true
+dnsbl:
+  use: true
+  servers:
+  - bl.spamcop.net
+  - sbl.spamhaus.org
+  notify: true
+  kick: false
+bungee: false
+sync:
+  use: false
+  server: false
+  host: 127.0.0.1
+  port: 2711
+  pass: ChangeMeNow
+  debug: false
+database:
+  mysql: false
+  user: root
+  pass: passwd
+  host: localhost
+  port: 3306
+  name: maxbans
+  read-only: false

@@ -1,0 +1,384 @@
+[21:00:19] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[21:00:19] [Server thread/INFO]: Loading properties
+[21:00:19] [Server thread/INFO]: Default game type: SURVIVAL
+[21:00:19] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-1339 (MC: 1.7.2) (Implementing API version 1.7.2-R0.4-SNAPSHOT)
+[21:00:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:00:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:00:19] [Server thread/INFO]: Generating keypair
+[21:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:00:22] [Server thread/INFO]: [PermissionsEx] sql backend registered!
+[21:00:22] [Server thread/INFO]: [PermissionsEx] file backend registered!
+[21:00:22] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.20.4
+[21:00:22] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[21:00:22] [Server thread/INFO]: Permissions file successfully reloaded
+[21:00:22] [Server thread/INFO]: [Vault] Loading Vault v1.4.1-b436
+[21:00:22] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v3.4.0
+[21:00:22] [Server thread/INFO]: [MH-API] Loading MH-API v1.0-SNAPSHOT
+[21:00:22] [Server thread/INFO]: [MH-AntyCheat] Loading MH-AntyCheat v1.0-SNAPSHOT
+[21:00:22] [Server thread/INFO]: [MH-Drop] Loading MH-Drop v1.0-SNAPSHOT
+[21:00:22] [Server thread/INFO]: [MH-Auth] Loading MH-Auth v1.0-SNAPSHOT
+[21:00:22] [Server thread/INFO]: [MH-Core] Loading MH-Core v1.0-SNAPSHOT
+[21:00:22] [Server thread/INFO]: [MH-Guild] Loading MH-Guild v1.0-SNAPSHOT
+[21:00:22] [Server thread/INFO]: [Vault] Enabling Vault v1.4.1-b436
+[21:00:22] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[21:00:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:00:22] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[21:00:22] [Server thread/INFO]: [Vault] Enabled Version 1.4.1-b436
+[21:00:22] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v3.4.0
+[21:00:22] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[21:00:22] [Server thread/INFO]: Preparing level "Spawn"
+[21:00:22] [Server thread/INFO]: -------- World Settings For [Spawn] --------
+[21:00:22] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:00:22] [Server thread/INFO]: Clear tick list: false
+[21:00:22] [Server thread/INFO]: View Distance: 10
+[21:00:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:00:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:00:22] [Server thread/INFO]: Random Lighting Updates: false
+[21:00:22] [Server thread/INFO]: Structure Info Saving: true
+[21:00:22] [Server thread/INFO]: Sending up to 5 chunks per packet
+[21:00:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:00:22] [Server thread/INFO]: Mob Spawn Range: 4
+[21:00:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:00:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:00:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:00:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:00:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:00:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:00:22] [Server thread/INFO]: Anti X-Ray: true
+[21:00:22] [Server thread/INFO]: 	Engine Mode: 1
+[21:00:22] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:00:22] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:00:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8
+[21:00:22] [Server thread/INFO]: Max Entity Collisions: 8
+[21:00:22] [Server thread/INFO]: -------- World Settings For [Spawn_the_end] --------
+[21:00:22] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[21:00:22] [Server thread/INFO]: Clear tick list: false
+[21:00:22] [Server thread/INFO]: View Distance: 10
+[21:00:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:00:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[21:00:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:00:22] [Server thread/INFO]: Random Lighting Updates: false
+[21:00:22] [Server thread/INFO]: Structure Info Saving: true
+[21:00:22] [Server thread/INFO]: Sending up to 5 chunks per packet
+[21:00:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:00:22] [Server thread/INFO]: Mob Spawn Range: 4
+[21:00:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:00:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:00:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:00:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:00:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:00:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:00:22] [Server thread/INFO]: Anti X-Ray: true
+[21:00:22] [Server thread/INFO]: 	Engine Mode: 1
+[21:00:22] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[21:00:22] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[21:00:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8
+[21:00:22] [Server thread/INFO]: Max Entity Collisions: 8
+[21:00:22] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5320472372855968085)
+[21:00:23] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5320472372855968085)
+[21:00:23] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.20.4
+[21:00:24] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[21:00:24] [Server thread/INFO]: [Vault][Chat] PermissionsEx_Chat hooked.
+[21:00:24] [Server thread/INFO]: [MH-API] Enabling MH-API v1.0-SNAPSHOT
+[21:00:24] [Server thread/INFO]: [MH-API] Connected to the SQLite server!
+[21:00:24] [Server thread/INFO]: [MH-API] Connection ping 497ms!
+[21:00:24] [Server thread/INFO]: [MH-AntyCheat] Enabling MH-AntyCheat v1.0-SNAPSHOT
+[21:00:24] [Server thread/INFO]: [MH-Drop] Enabling MH-Drop v1.0-SNAPSHOT
+[21:00:24] [Server thread/INFO]: [MH-Auth] Enabling MH-Auth v1.0-SNAPSHOT
+[21:00:24] [Server thread/WARN]: [MH-API] An error occurred with given query 'CREATE TABLE IF NOT EXISTS `accounts` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,`uuid` VARCHAR(36) NOT NULL, `nick` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `lastIp` VARCHAR(255) NOT NULL, `firstIP` VARCHAR(255) NOT NULL, `premium` INT(1) NOT NULL, `lastPlayed` BIGINT(255) NOT NULL, `firstPlayed` BIGINT(255) NOT NULL);'!
+[21:00:24] [Server thread/WARN]: [MH-API] Error: near "AUTO_INCREMENT": syntax error
+[21:00:24] [Server thread/WARN]: java.sql.SQLException: near "AUTO_INCREMENT": syntax error
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.NativeDB.throwex(NativeDB.java:210)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.NativeDB._exec(Native Method)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.Stmt.executeUpdate(Stmt.java:152)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.api.store.modes.StoreSQLITE$1.run(StoreSQLITE.java:53)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.api.store.modes.StoreSQLITE.update(StoreSQLITE.java:62)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.auth.LoginManager.setup(LoginManager.java:109)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.auth.Auth.onEnable(Auth.java:36)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617)
+[21:00:24] [Server thread/WARN]: [MH-API] An error occurred with given query 'SELECT * FROM `accounts`'!
+[21:00:24] [Server thread/WARN]: [MH-API] Error: [SQLITE_ERROR] SQL error or missing database (no such table: accounts)
+[21:00:24] [Server thread/WARN]: java.sql.SQLException: [SQLITE_ERROR] SQL error or missing database (no such table: accounts)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.newSQLException(DB.java:383)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.newSQLException(DB.java:387)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.throwex(DB.java:374)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.NativeDB.prepare(Native Method)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.prepare(DB.java:123)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.Stmt.executeQuery(Stmt.java:121)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.api.store.modes.StoreSQLITE.query(StoreSQLITE.java:111)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.auth.LoginManager.setup(LoginManager.java:110)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.auth.Auth.onEnable(Auth.java:36)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617)
+[21:00:24] [Server thread/WARN]: java.lang.NullPointerException
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.auth.LoginManager.setup(LoginManager.java:111)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.auth.Auth.onEnable(Auth.java:36)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617)
+[21:00:24] [Server thread/ERROR]: Error occurred while enabling MH-Auth v1.0-SNAPSHOT (Is it up to date?)
+java.lang.NoClassDefFoundError: net/minecraft/server/v1_7_R4/MinecraftServer
+	at pl.myhard.auth.checking.LogowaniePremium.init(LogowaniePremium.java:12) ~[?:?]
+	at pl.myhard.auth.Auth.onEnable(Auth.java:37) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[serwer.jar:git-Spigot-1339]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [serwer.jar:git-Spigot-1339]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [serwer.jar:git-Spigot-1339]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [serwer.jar:git-Spigot-1339]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [serwer.jar:git-Spigot-1339]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.server.v1_7_R4.MinecraftServer
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:67) ~[serwer.jar:git-Spigot-1339]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:62) ~[serwer.jar:git-Spigot-1339]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_31]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_31]
+	... 13 more
+[21:00:24] [Server thread/INFO]: [MH-Core] Enabling MH-Core v1.0-SNAPSHOT
+[21:00:24] [Server thread/WARN]: [MH-API] An error occurred with given query 'SELECT * FROM `mh_users`'!
+[21:00:24] [Server thread/WARN]: [MH-API] Error: [SQLITE_ERROR] SQL error or missing database (no such table: mh_users)
+[21:00:24] [Server thread/WARN]: java.sql.SQLException: [SQLITE_ERROR] SQL error or missing database (no such table: mh_users)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.newSQLException(DB.java:383)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.newSQLException(DB.java:387)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.throwex(DB.java:374)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.NativeDB.prepare(Native Method)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.prepare(DB.java:123)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.Stmt.executeQuery(Stmt.java:121)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.api.store.modes.StoreSQLITE.query(StoreSQLITE.java:111)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.core.managers.UserManager.setup(UserManager.java:97)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.core.Core.onEnable(Core.java:54)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617)
+[21:00:24] [Server thread/ERROR]: Error occurred while enabling MH-Core v1.0-SNAPSHOT (Is it up to date?)
+java.lang.NullPointerException
+	at pl.myhard.core.managers.UserManager.setup(UserManager.java:99) ~[?:?]
+	at pl.myhard.core.Core.onEnable(Core.java:54) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[serwer.jar:git-Spigot-1339]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [serwer.jar:git-Spigot-1339]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [serwer.jar:git-Spigot-1339]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [serwer.jar:git-Spigot-1339]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [serwer.jar:git-Spigot-1339]
+[21:00:24] [Server thread/INFO]: [MH-Guild] Enabling MH-Guild v1.0-SNAPSHOT
+[21:00:24] [Server thread/WARN]: [MH-API] An error occurred with given query 'SELECT * FROM `mh_guilds`'!
+[21:00:24] [Server thread/WARN]: [MH-API] Error: [SQLITE_ERROR] SQL error or missing database (no such table: mh_guilds)
+[21:00:24] [Server thread/WARN]: java.sql.SQLException: [SQLITE_ERROR] SQL error or missing database (no such table: mh_guilds)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.newSQLException(DB.java:383)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.newSQLException(DB.java:387)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.throwex(DB.java:374)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.NativeDB.prepare(Native Method)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.DB.prepare(DB.java:123)
+[21:00:24] [Server thread/WARN]: 	at org.sqlite.Stmt.executeQuery(Stmt.java:121)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.api.store.modes.StoreSQLITE.query(StoreSQLITE.java:111)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.guild.managers.GuildManager.enable(GuildManager.java:79)
+[21:00:24] [Server thread/WARN]: 	at pl.myhard.guild.GuildPlugin.onEnable(GuildPlugin.java:31)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460)
+[21:00:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437)
+[21:00:24] [Server thread/WARN]: 	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617)
+[21:00:24] [Server thread/ERROR]: Error occurred while enabling MH-Guild v1.0-SNAPSHOT (Is it up to date?)
+java.lang.NullPointerException
+	at pl.myhard.guild.managers.GuildManager.enable(GuildManager.java:81) ~[?:?]
+	at pl.myhard.guild.GuildPlugin.onEnable(GuildPlugin.java:31) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:250) ~[serwer.jar:git-Spigot-1339]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:350) [serwer.jar:git-Spigot-1339]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:390) [serwer.jar:git-Spigot-1339]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.loadPlugin(CraftServer.java:460) [serwer.jar:git-Spigot-1339]
+	at org.bukkit.craftbukkit.v1_7_R1.CraftServer.enablePlugins(CraftServer.java:380) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.m(MinecraftServer.java:348) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.g(MinecraftServer.java:325) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.a(MinecraftServer.java:281) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.DedicatedServer.init(DedicatedServer.java:186) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.MinecraftServer.run(MinecraftServer.java:437) [serwer.jar:git-Spigot-1339]
+	at net.minecraft.server.v1_7_R1.ThreadServerApplication.run(SourceFile:617) [serwer.jar:git-Spigot-1339]
+[21:00:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:00:24] [Server thread/INFO]: Done (1,902s)! For help, type "help" or "?"
+[21:00:24] [Server thread/WARN]: [MH-API] Can not find valid TagAPI instance!
+[21:00:24] [Server thread/WARN]: [MH-API] Using ScoreBoard nametags!
+[21:00:24] [Server thread/INFO]: [MH-API] Using 'ScoreBoard' to support nametags!
+[21:00:27] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates:
+[21:00:27] [Craft Scheduler Thread - 2/WARN]: [Vault] Stable Version: 1.5.3 is out! You are still running version: 1.4.1
+[21:00:27] [Craft Scheduler Thread - 2/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[21:00:27] [Server thread/INFO]: [0;34;1m[ProtocolLib] The updater did not find an update, and nothing was downloaded.[m
+[21:00:27] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[21:00:29] [Server thread/INFO]: Plugins (9): [0;32;1mPermissionsEx[0;37;1m, [0;32;1mVault[0;37;1m, [0;32;1mProtocolLib[0;37;1m, [0;32;1mMH-API[0;37;1m, [0;32;1mMH-AntyCheat[0;37;1m, [0;32;1mMH-Drop[0;37;1m, [0;32;1mMH-Auth[0;37;1m, [0;32;1mMH-Core[0;37;1m, [0;32;1mMH-Guild[m
+[21:00:38] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[21:00:40] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+[21:00:40] [Server thread/INFO]: [0;37;22mUse /help [n] to get page n of help.[m
+[21:00:40] [Server thread/INFO]: [0;33;22mAliases: [0;37;1mLists command aliases[m
+[21:00:40] [Server thread/INFO]: [0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+[21:00:40] [Server thread/INFO]: [0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+[21:00:40] [Server thread/INFO]: [0;33;22mPermissionsEx: [0;37;1mAll commands for PermissionsEx[m
+[21:00:40] [Server thread/INFO]: [0;33;22mProtocolLib: [0;37;1mAll commands for ProtocolLib[m
+[21:00:40] [Server thread/INFO]: [0;33;22mVault: [0;37;1mAll commands for Vault[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/ac: [0;37;1maura[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/achievement: [0;37;1mGives the specified player an achievement or changes a statistic value. Use '*' to give all achievements.[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/ban: [0;37;1mPrevents the specified player from using this server[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/ban-ip: [0;37;1mPrevents the specified IP address from using this server[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/banlist: [0;37;1mView all players banned from this server[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/clear: [0;37;1mClears the player's inventory. Can specify item and data filters too.[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/clickercool: [0;37;1mclickercooldown[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/defaultgamemode: [0;37;1mSet the default gamemode[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/demote: [0;37;1mPermission ladder demotion command.[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/deop: [0;37;1mTakes the specified player's operator status[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/difficulty: [0;37;1mSets the game difficulty[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/dropreload: [0;37;1mPrzeladowanie konfiguracji dropu.[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/effect: [0;37;1mAdds/Removes effects on players[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/enchant: [0;37;1mAdds enchantments to the item the player is currently holding. Specify 0 for the level to remove an enchantment. Specify force to ignore normal enchantment restrictions[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/filter: [0;37;1mAdd or remove programmable filters to the packet listeners.[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/gamemode: [0;37;1mChanges the player to a specific game mode[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/gamerule: [0;37;1mSets a server's game rules[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/give: [0;37;1mGives the specified player a certain amount of items[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/help: [0;37;1mShows the help menu[m
+[21:00:40] [Server thread/INFO]: [0;33;22m/kick: [0;37;1mRemoves the specified player from the server[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/kill: [0;37;1mCommits suicide, only usable as a player[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/list: [0;37;1mLists all online players[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/me: [0;37;1mPerforms the specified action in chat[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:achievement: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:ban: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:ban-ip: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:banlist: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:clear: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:defaultgamemode: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:deop: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:difficulty: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:effect: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:enchant: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:gamemode: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:gamerule: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:give: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:kick: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:kill: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:list: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:me: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:op: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:pardon: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:pardon-ip: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:playsound: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:say: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:scoreboard: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:seed: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:setidletimeout: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:setworldspawn: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:spawnpoint: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:spreadplayers: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:tell: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:testfor: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:time: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:toggledownfall: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:tp: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:weather: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:whitelist: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/minecraft:xp: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/op: [0;37;1mGives the specified player operator status[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/packet: [0;37;1mAdd or remove a simple packet listener.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/pardon: [0;37;1mAllows the specified player to use this server[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/pardon-ip: [0;37;1mAllows the specified IP address to use this server[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/pex: [0;37;1mProvides access to Permissions commands and information.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/playsound: [0;37;1mPlays a sound to a given player[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/promote: [0;37;1mPermission ladder promotion command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/protocol: [0;37;1mPerforms administrative tasks regarding ProtocolLib.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/restart: [0;37;1mRestarts the server[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/save-all: [0;37;1mSaves the server to disk[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/save-off: [0;37;1mDisables server autosaving[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/save-on: [0;37;1mEnables server autosaving[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/say: [0;37;1mBroadcasts the given message as the sender[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/scoreboard: [0;37;1mScoreboard control[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/seed: [0;37;1mShows the world seed[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/setidletimeout: [0;37;1mSets the server's idle timeout[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/setworldspawn: [0;37;1mSets a worlds's spawn point. If no coordinates are specified, the player's coordinates will be used.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/spawnpoint: [0;37;1mSets a player's spawn point[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/spreadplayers: [0;37;1mSpreads players around a point[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/stone: [0;37;1mSprawdzanie % na drop_old.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/stop: [0;37;1mStops the server with optional reason[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/tell: [0;37;1mSends a private message to the given player[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/testfor: [0;37;1mTests whether a specifed player is online[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/testforblock: [0;37;1mA Mojang provided command.[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/time: [0;37;1mChanges the time on each world[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/timings: [0;37;1mRecords timings for all plugin events[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/toggledownfall: [0;37;1mToggles rain on/off on a given world[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/tp: [0;37;1mTeleports the given player (or yourself) to another player or coordinates[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/vault-convert: [0;37;1mConverts all data in economy1 and dumps it into economy2[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/vault-info: [0;37;1mDisplays information about Vault[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/weather: [0;37;1mChanges the weather[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/whitelist: [0;37;1mManages the list of players allowed to use this server[m
+[21:00:41] [Server thread/INFO]: [0;33;22m/xp: [0;37;1mGives the specified player a certain amount of experience. Specify <amount>L to give levels instead, with a negative amount resulting in taking levels.[m
+[21:01:01] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[21:01:09] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[21:01:17] [Server thread/INFO]: Plugins (9): [0;32;1mPermissionsEx[0;37;1m, [0;32;1mVault[0;37;1m, [0;32;1mProtocolLib[0;37;1m, [0;32;1mMH-API[0;37;1m, [0;32;1mMH-AntyCheat[0;37;1m, [0;32;1mMH-Drop[0;37;1m, [0;32;1mMH-Auth[0;37;1m, [0;32;1mMH-Core[0;37;1m, [0;32;1mMH-Guild[m
+[21:02:07] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[21:02:10] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[21:02:11] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[21:02:13] [Server thread/INFO]: Unknown command. Type "/help" for help.[m

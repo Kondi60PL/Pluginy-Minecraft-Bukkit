@@ -1,0 +1,4 @@
+&7&l--> &eWitaj {PLAYER} &7&l<--
+&7&l-->&a Wpisz /pomoc aby uzyskac podstawowe informacje &7&l<--
+&7&l-->&e Komenda /list pokaze ci aktualna liczbe graczy&7&l<--
+&7&l-->&c GRAJ UCZCIWIE !!! &7&l<--

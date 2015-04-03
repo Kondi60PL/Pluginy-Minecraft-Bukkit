@@ -1,0 +1,7 @@
+name: Hard_AuraInfo
+main: pl.marcelisgaming.aura.Main
+version: 1.2
+author: WhitePersonality
+commands:
+   aurainfo:
+    descrtption: Info o autorze!

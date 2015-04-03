@@ -1,0 +1,21 @@
+config:
+  enabled: true
+  costs:
+    create: '1:0-1;'
+    join: '1:0-1;'
+    owner: '1:0-1;'
+    leader: '1:0-1'
+    resize: '1:0-1;'
+    limit: '1:0-1;'
+    effect: '1:0-1;'
+    expire: '1:0-1;'
+  size:
+    start: 25
+    max: 50
+  limits:
+    limit: 10
+    players: 30
+  chat:
+    char: '@'
+    guild: '&2%player -> Gildia: &a%message'
+    alliance: '&6[%tag] %player -> Sojusz: &e%message'

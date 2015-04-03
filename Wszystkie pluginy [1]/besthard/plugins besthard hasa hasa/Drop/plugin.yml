@@ -1,0 +1,26 @@
+name: DropPlugin
+author: FusHerkA
+main: mc.fusherka.DropStone.DropPlugin
+version: 2.1
+description: Zarzadzanie dropem.
+commands:
+  surowce:
+    description: "Wyswietlanie informacji o dropie ze stone'a."
+    permission: drop.surowce
+    aliases: [stone]
+  dropreload:
+    description: Przeladowanie pliku konfiguracji.
+    permission: drop.reload
+  cobble:
+    description: "Zarzadzanie coble"
+    permission: drop.cobble
+    aliases: [cobblestone]
+permissions:
+  drop.surowce:
+    default: true
+  drop.cobble:
+    default: true
+  drop.reload:
+    default: op
+  drop.giant:
+    default: op

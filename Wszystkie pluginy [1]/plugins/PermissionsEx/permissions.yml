@@ -1,0 +1,97 @@
+groups:
+  Gracz:
+    default: true
+    permissions:
+    - essentials.rules
+    - modifyworld.*
+    - essentials.helpop
+    - essentials.
+    - essentials.signs.use.balance
+    - essentials.signs.use.buy
+    - essentials.signs.use.disposal
+    - essentials.signs.use.enchant
+    - essentials.signs.use.free
+    - essentials.signs.use.gamemode
+    - essentials.signs.use.heal
+    - essentials.signs.use.info
+    - essentials.signs.use.kit
+    - essentials.signs.use.mail
+    - essentials.signs.use.protection
+    - essentials.signs.use.repair
+    - essentials.signs.use.sell
+    - essentials.signs.use.time
+    - essentials.signs.use.trade
+    - essentials.signs.use.warp
+    - essentials.signs.use.weather
+    - essentials.msg
+    - essentials.tell
+  Vip:
+    default: false
+    permissions:
+    - essentials.kits.vip
+    - essentials.hat
+    - essentials.enderchest
+    - essentials.chat.color
+    inheritance:
+    - Gracz
+  Helper:
+    default: false
+    permissions:
+    - mycommand.cc
+    - essentials.time
+    - essentials.day
+    - essentials.nick
+    - essentials.weather.sun
+    - essentials.weather
+    - essentials.vanish
+    - essentials.fly
+    - maxbans.ban
+    - maxbans.kick
+    - maxbans.tempban
+    - maxbans.warn
+    - maxbans.ipban
+    - maxbans.unban
+    - essentials.broadcast
+    - essentials.mute
+    - essentials.mute.others
+    - essentials.tpahere
+    - essentials.tp
+    - essentials.tp.others
+    inheritance:
+    - Vip
+    - Gracz
+  Youtuber:
+    default: false
+    permissions:
+    - essentials.fly
+    inheritance:
+    - Gracz
+    - Vip
+  Admin:
+    default: false
+    permissions:
+    - '*'
+  Wlasciciel:
+    default: false
+    permissions:
+    - '*'
+  Mod:
+    permissions:
+    - essentials.clear
+    - essentials.gamemode
+    - essentials.tpahere
+    - essentials.tp
+    - essentials.tp.others
+    inheritance:
+    - Gracz
+    - Helper
+users:
+  Vr33Z00m:
+    group:
+    - Admin
+  Taikun8:
+    group:
+    - Wlasciciel
+  xTheAlpha:
+    group:
+    - Admin

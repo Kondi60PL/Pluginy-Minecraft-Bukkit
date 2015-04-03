@@ -1,0 +1,198 @@
+# # # # # # # # # # # # # # # #
+#  LogIt Configuration File   #
+# # # # # # # # # # # # # # # #
+
+locale: en
+logging:
+  file:
+    enabled: false
+    filename: debug.log
+    level: 0
+  verbose-console: false
+force-login:
+  global: true
+  in-worlds: []
+  allowed-commands: []
+  timeout:
+    enabled: false
+    value: 20sec
+    disable-for-players: []
+  prevent:
+    move: true
+    toggle-sneak: true
+    block-place: true
+    block-break: true
+    damage-in: true
+    damage-out: true
+    regain-health: true
+    food-level-change: true
+    entity-target: true
+    chat: true
+    command-preprocess: true
+    pickup-item: true
+    drop-item: true
+    interact: true
+    interact-entity: true
+    inventory-click: true
+    air-depletion: true
+  prompt:
+    register: true
+    login: true
+    min-interval: 2sec
+  periodical-prompt:
+    enabled: true
+    period: 10sec
+  prompt-on:
+    join: true
+    drop-item: true
+    block-place: true
+    block-break: true
+    interact: true
+    interact-entity: true
+  obfuscate-bars:
+    air: false
+    health: false
+    experience: false
+    hunger: false
+  exempt-players: []
+login-sessions:
+  enabled: false
+  validness-time: 7days
+messages:
+  join:
+    hide: false
+    show-world: false
+  multiverse-hook: true
+  quit:
+    hide: false
+username:
+  regex: '[A-Za-z0-9_]+'
+  min-length: 2
+  max-length: 16
+  prohibited-usernames: []
+password:
+  min-length: 4
+  max-length: 40
+  hashing-algorithm: sha-256
+  use-global-hashing-algorithm: false
+  use-salt: true
+  global-password:
+    hash: ''
+    salt: ''
+  disable-passwords: false
+crowd-control:
+  login-fails-to-kick: -1
+  login-fails-to-ban: -1
+  kick-unregistered: false
+  automatic-account-deletion:
+    enabled: false
+    inactivity-time: 365days
+  accounts-per-ip:
+    amount: -1
+    unrestricted-ips: []
+  reserve-slots:
+    amount: 0
+    for-players: []
+password-recovery:
+  enabled: false
+  subject: Password recovery for %player%
+  body-template: mail/password-recovery.html
+  html-enabled: true
+  password-length: 6
+  password-combination: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+  prompt-to-add-email: true
+mail:
+  email-address: ''
+  smtp-host: ''
+  smtp-port: 465
+  smtp-user: ''
+  smtp-password: ''
+waiting-room:
+  enabled: false
+  location:
+    ==: Location
+    world: world
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+  newbie-teleport:
+    enabled: false
+    location:
+      ==: Location
+      world: world
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      yaw: 0.0
+      pitch: 0.0
+groups:
+  enabled: false
+  registered: Registered
+  unregistered: Unregistered
+  logged-in: LoggedIn
+  logged-out: LoggedOut
+integration: none
+profiles:
+  enabled: false
+  path: profiles
+storage:
+  accounts:
+    leading:
+      storage-type: sqlite
+      csv:
+        dir: ./
+      sqlite:
+        filename: accounts.db
+      h2:
+        filename: accounts
+      mysql:
+        host: jdbc:mysql://localhost:3306/
+        user: root
+        password: ''
+        database: ''
+      postgresql:
+        host: jdbc:postgresql://localhost:5432/database
+        user: postgres
+        password: ''
+      unit: logit
+      cache: disabled
+    mirror:
+      storage-type: none
+      csv:
+        dir: ./
+      sqlite:
+        filename: accounts2.db
+      h2:
+        filename: accounts2
+      mysql:
+        host: jdbc:mysql://localhost:3306/
+        user: root
+        password: ''
+        database: ''
+      postgresql:
+        host: jdbc:postgresql://localhost:5432/database
+        user: postgres
+        password: ''
+      unit: logit2
+    keys:
+      username: username
+      salt: salt
+      password: password
+      hashing_algorithm: hashing_algorithm
+      ip: ip
+      login_session: login_session
+      email: email
+      last_active_date: last_active_date
+      reg_date: reg_date
+      is_locked: is_locked
+      persistence: persistence
+  sessions:
+    filename: sessions.db
+backup:
+  path: backup
+  filename-format: yyyy-MM-dd_HH-mm-ss'.db'
+  schedule:
+    enabled: false
+    interval: 120min

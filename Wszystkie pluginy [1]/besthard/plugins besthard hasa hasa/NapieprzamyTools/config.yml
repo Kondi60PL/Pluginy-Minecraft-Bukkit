@@ -1,0 +1,27 @@
+config:
+  netherandendportal: false
+  deniedpermissions:
+  - '*'
+  - essentials.*
+  - worldedit.*
+  - permissions.*
+  command:
+  - /?
+  - /bukkit:me
+  - /bukkit
+  - /version
+  mysql:
+    host: 127.0.0.1
+    user: easyhard
+    pass: ZdqhYMss5Qn3HKYr
+    database: easyhard
+  playersinfo:
+  - '&aWitaj na serwerze'
+  - '&7CZEKAMY NA CIEBIE !!!13.11.2014 Godzina 15:00'
+  motd:
+  - '&a&lStart:&413.11.2014 Godzina 15:00'
+  - '&eStart: &213.11.2014 &3Godzina &b15:00 &a&lSprawdz'
+  gamemodeusers:
+  - minecraft12w23b
+  - zenezpl1
+  - asdad

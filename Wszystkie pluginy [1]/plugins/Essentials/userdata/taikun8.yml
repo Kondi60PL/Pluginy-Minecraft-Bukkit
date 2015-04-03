@@ -1,0 +1,31 @@
+timestamps:
+  logout: 1423396072666
+  login: 1423392826568
+  lastteleport: 1423397321138
+  kits:
+    vip: 1423160030776
+    pvp: 1423160040475
+ipAddress: 25.187.57.184
+lastlocation:
+  world: serwerHardcore
+  x: -371.5
+  y: 4.0
+  z: -360.5
+  yaw: 0.8992629
+  pitch: 77.25
+logoutlocation:
+  world: serwerHardcore
+  x: -372.4721368279402
+  y: 39.77468455356765
+  z: -356.67211248982557
+  yaw: -177.8633
+  pitch: 89.84283
+homes:
+  home:
+    world: world1
+    x: 0.5
+    y: 63.0
+    z: 160.5
+    yaw: 2.9946384
+    pitch: 24.044224
+socialspy: false

@@ -1,0 +1,7 @@
+# MotdManager Configuration file!
+# @author syamn <admin@sakura-server.net>
+# github: https://github.com/syamn/MotdManager
+
+MotdList:
+- '&cHardcore! &eTrwaja prace techniczne na serwerze! Wracamy niebawem!'
+FakeMaxPlayer: disable

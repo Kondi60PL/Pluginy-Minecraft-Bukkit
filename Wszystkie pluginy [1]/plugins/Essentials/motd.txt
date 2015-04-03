@@ -1,0 +1,16 @@
+
+
+
+
+
+
+ &7Witaj, &6{PLAYER}&7 na serwerze Hardcore!
+ &7Aktualnie na serwerze znajduje sie &6{ONLINE} &7graczy
+ &7Odwiedzilo nas juz &6{UNIQUE} &7graczy.
+
+ 
+ 
+ 
+ 
+ 
+ 

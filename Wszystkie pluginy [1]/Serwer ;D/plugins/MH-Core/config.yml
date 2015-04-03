@@ -1,0 +1,26 @@
+config:
+  enabled: false
+  user:
+    backup:
+      time: 5
+  slotmanager:
+    motd: '&6Podstawowe MOTD'
+    slots: 300
+  automessage:
+    interval: 60
+    prefix: '&8[&6MyHARD&8] '
+    suffix: '&7'
+    messages:
+    - 'wiadomosc #1'
+    - 'wiadomosc #2'
+  ban:
+    time: 72
+  escape:
+    time: 20
+  afk:
+    time: 600
+  chat:
+    slowmode: 20
+    format:
+      global: '{GUILD}{PREFIX}{PLAYER}&8:{SUFFIX}{MESSAGE}'
+      guild: '&8[&2{TAG}&8] '

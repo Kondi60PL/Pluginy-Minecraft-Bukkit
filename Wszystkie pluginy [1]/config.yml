@@ -1,0 +1,6 @@
+WELCOMEMSG: true
+WHITELIST_MESSAGE: Bot attack detect, please try again in 5 minutes!
+SENSIBILITY: 2
+CHECKPROXY: false
+MAINTENANCEMODE: false
+MAINTENANCEMSG: Server under maintenance, only OP can Join now!

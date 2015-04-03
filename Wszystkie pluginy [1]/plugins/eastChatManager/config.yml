@@ -1,0 +1,40 @@
+config:
+  enabled: true
+  format:
+    global: '&2%guild%prefix %name&8:&7 %suffix%message'
+    guild: '&8[&c%tag&8]'
+  options:
+    help-char: '?'
+    delay: 15
+broadcast:
+  enabled: true
+  interval: 60
+  prefix: '&8[&9GlaDoS&8] '
+  suffix: '&7'
+  messages:
+  - Pierwsza wiadomosc
+  - Druga wiadomosc
+  - Trzecia wiadomosc
+deaths:
+  contact: '&7Gracz &c%player &7lubi akupunkture'
+  entity_attack: '&7Gracz &c%player &7mial dobry kontakt z potworami'
+  projectile: '&7Gracz &c%player &7zostal postrzelony'
+  suffocation: '&7Gracz &c%player &7zostal zamkniety w wiecznym grobowcu'
+  fall: '&7Gracz &c%player &7zapomnial wypic RedBulla'
+  fire: '&7Gracz &c%player &7usmazyl sie'
+  fire_tick: '&7Gracz &c%player &7spalil sie'
+  melting: '&7Gracz &c%player &7zamarzl'
+  lava: '&7Gracz &c%player &7nie potrafi plywac w lawie'
+  drowning: '&6Gracz &c%player &6utonal'
+  block_explosion: '&7Gracz &c%player &7bawil sie w Ahmeda'
+  entity_explosion: '&7Gracz &c%player &7nie lubi Creeperow'
+  void: '&7Gracz &c%player &7wypadl ze swiata'
+  lightning: '&7Gracz &c%player &7zostal jebniety piorunem'
+  suicide: '&7Gracz &c%player &7umarl'
+  starvation: '&7Gracz &c%player &7zaglodzil sie'
+  poison: '&7Gracz &c%player &7zostal zabity przez magie'
+  magic: '&7Gracz &c%player &7zostal zabity przez magie'
+  wither: '&7Gracz &c%player &7zadawal sie z Witherem'
+  falling_block: 7Gracz &c%player &7wpadl pod gravel
+  thorns: '&7Gracz &c%player &7nie wiedzial ze z Thornsami sie nie zaczyna'
+  custom: '&7Gracz &c%player &7umarl'

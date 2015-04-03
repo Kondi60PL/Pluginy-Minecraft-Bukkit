@@ -1,0 +1,53 @@
+disconnection:
+    you-were-kicked: "&cZostales wyrzucony z serwera!\n \n&cPrzez: &f{banner}\n&cPowod: &f{reason}"
+    you-are-banned: "&cZostales zbanowany na serwerze!\n \n&cPrzez: &f{banner}\n&cPowod: &f{reason}\n&cOdbanuj sie na &fwww.18929.enmc.pl"
+    you-are-ipbanned: "&cZostales zbanowany na serwerze!\n \n&cPrzez: &f{banner}\n&cPowod: &f{reason}"
+    you-are-temp-banned: "&cZostales zbanowany na serwerze na &f{time}\n \n&cPrzez: &f{banner}\n&cPowod: &f{reason}"
+    you-are-temp-ipbanned: "&cZostales zbanowany na serwerze na &f{time}\n \n&cPrzez: &f{banner}\n&cPowod: &f{reason}"
+    
+    you-are-rangebanned: "&fYour IP Address (&c{range}&f) is RangeBanned.\nReason: &a{reason}&f\nBy: &a{banner}&f.\n{appeal-message}"
+    you-are-temp-rangebanned: "&fYour IP Address (&c{range}&f) is RangeBanned.\nThe ban expires in &a{time}&f.\nReason: &a{reason}&f\nBy: &a{banner}&f.\n{appeal-message}"
+    
+    you-are-proxied: "Kicked by Maxbans:\n Your IP ({ip}) is listed as a proxy."
+    
+    lockdown-active: "&cZostales wyrzucony z serwera!\n \n&cPrzez: &fConsole\n&cPowod: &f{reason}"
+    invalid-letters: "&fZostales wyrzucony z serwera!\nPrzez: Console\nPowod: Twoja nazwa zawiera nieprawidlowe znaki: {letters}"
+    invalid-name: "&fZostales wyrzucony z serwera!\nPrzez: Console\nPowod: Nie prawidlowa nazwa."
+    
+    
+announcement:
+    player-was-kicked: "&cKICK: {name} zostal wyrzucony Powod: {reason} [{banner}]"
+    player-was-banned: "&cBAN: {name} zostal zbanowany Powod: {reason} [{banner}]"
+    player-was-ip-banned: "&cBAN: {name} zostal zbanowany Powod: {reason} [{banner}]"
+    player-was-muted: "&cMUTE: {name} zostal wyciszony Powod: {reason} [{banner}]"
+    player-was-tempbanned: "&cTEMP-BAN: {name} zostal zbanowany czasowo na {time} Powod: {reason} [{banner}]"
+    player-was-tempipbanned: "&cTEMP-BAN-IP: {name} zostal zbanowany czasowo na IP! ('{ip}') na {time} Powod: {reason} [{banner}]"
+    player-was-temp-muted: "&cTEMP-MUTE: {name} zostal wyciszony na {time} {banner} Powod {reason} [{banner}]"
+    player-was-unbanned: "&cUN-BAN: {name} zostal odbanowany przez {banner}"
+    player-was-unmuted: "&cUN-MUTE: {name} zostal odciszony przez {banner}"
+    player-was-warned: "&cWARN: {name} otrzymal ostrzezenie Powod: {reason} [{banner}]"
+    ip-was-unbanned: "&cUN-BAN-IP: {ip} zostalo odbanowane przez {banner}"
+    player-warnings-cleared: "&cCLEAR-WARN: {banner} wyczyscil wszystkie ostrzezenia graczowi {name}"
+    unwarn-success: "&cCLEAR-WARN: {banner} usunal ostrzezenie graczowi {name}"
+    
+error:
+    no-player-given: "&cNo name given."
+    no-permission: "&cNie masz uprawnien do uzycia tej komendy."
+    no-ip-known: "&cThat player has no IP history!"
+    no-ipban-found: "&cCould not find a ban for &a{ip}&f."
+    no-ban-found: "&cCould not find a ban for &a{name}&f."
+    no-mute-found: "&a{name}&c nie jest wyciszony"
+    no-dupeip-duplicates: "&fNo duplicates!"
+    no-history: "&fNo history."
+    no-warnings: "&a{name}&c has no warnings to their name."
+    
+    unknown-player: "&cGracz o takim nicku jest nieprawidlowa lub OFFLINE"
+    player-already-banned: "&cTen gracz jest juz zbanowany."
+    ip-already-banned: "&cTo ip jest aktualnie zbanowane."
+    
+    
+    tempban-shorter-than-last: "&cThat player has a tempban which will last longer than the one you supplied!"
+    tempipban-shorter-than-last: "&cThat IP has a tempban which will last longer than the one you supplied!"
+    tempmute-shorter-than-last: "&cThat player already has a mute which lasts longer than the one you tried to give."
+
+    

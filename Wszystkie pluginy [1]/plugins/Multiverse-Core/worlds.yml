@@ -1,0 +1,176 @@
+worlds:
+  serwerHardcore:
+    seed: -5378003233218214292
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -458.0
+      y: 4.0
+      z: -182.0
+      pitch: 0.0
+      yaw: 0.0
+      world: serwerHardcore
+    autoload: true
+    bedrespawn: true
+  spawnHardcore2:
+    seed: -5940016912828116669
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: false
+    monsters:
+      spawn: false
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 0.0
+      y: 4.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+      world: spawnHardcore2
+    autoload: true
+    bedrespawn: true
+  world1:
+    seed: 1782653518
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: false
+    monsters:
+      spawn: false
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -3.5
+      y: 65.0
+      z: 247.5
+      pitch: 0.0
+      yaw: 0.0
+      world: world1
+    autoload: true
+    bedrespawn: true
+  world1_nether:
+    seed: -6407693524126209615
+    environment: NETHER
+    type: NORMAL
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 8.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -4.5
+      y: 66.0
+      z: 8.5
+      pitch: 0.0
+      yaw: 0.0
+      world: world1_nether
+    autoload: true
+    bedrespawn: true
+  world1_the_end:
+    seed: -6407693524126209615
+    environment: THE_END
+    type: NORMAL
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 0.0
+      y: 63.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+      world: world1_the_end
+    autoload: true
+    bedrespawn: true

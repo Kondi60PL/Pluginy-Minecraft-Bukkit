@@ -1,0 +1,7 @@
+coordinates:
+  min: 5000
+  max: 5000
+messages:
+  ocean: "&8> &aBlad! Trafiles na biom &cOCEAN&c!"
+  river: "&8> &aBlad! Trafiles na biom &cRIVER&c!"
+  teleported: "&8> &aZostales przeteleportowany na losowe koordynaty!"

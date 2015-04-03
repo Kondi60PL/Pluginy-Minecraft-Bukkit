@@ -1,0 +1,29 @@
+config:
+  tag:
+    mode: tagapi
+  cost:
+    create:
+      normal: 1:0-10;
+    join:
+      normal: 1:0-10;
+    leader:
+      normal: 1:0-10;
+    owner:
+      normal: 1:0-10;
+    enlarge:
+      normal: 1:0-10;
+    prolong:
+      normal: 1:0-10;
+  cuboid:
+    world: world
+    size:
+      start: 24
+      max: 74
+      add: 1
+      between: 50
+    spawn:
+      enabled: true
+      distance: 400
+  actions:
+    protectedid:
+    - 54

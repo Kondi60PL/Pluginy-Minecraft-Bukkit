@@ -1,0 +1,14 @@
+groups:
+  default:
+    default: true
+    permissions:
+    - modifyworld.*
+  Admin:
+    default: false
+    prefix: '&4'
+    permissions:
+    - '*'
+users:
+  Galaxy_PL:
+    group:
+    - Admin

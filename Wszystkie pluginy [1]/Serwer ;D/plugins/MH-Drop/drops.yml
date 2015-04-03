@@ -1,0 +1,23 @@
+random-drops:
+  diament:
+    chance: 50.0
+    exp: 10
+    fortune: true
+    message: '&7Trafiles na: &3diament&7! ({AMOUNT} szt)'
+    biome: []
+    tool: []
+    height:
+      min: 0
+      max: 25
+    amount:
+      min: 1
+      max: 1
+    drop:
+      what: DIAMOND
+      from: STONE
+cancel-drops:
+- DIAMOND_ORE
+- COAL_ORE
+exp-drops:
+  STONE: 3
+  OBSIDIAN: 10

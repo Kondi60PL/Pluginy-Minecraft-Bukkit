@@ -1,0 +1,107 @@
+var:
+  debug: false
+  commandsonlyfromconsole: false
+save:
+  enabled: true
+  interval: 900
+  broadcast: true
+  disablestructuresaving: false
+  onaswdisable: true
+  onlastplayerquit: true
+  donotsaveifempty: true
+backup:
+  enabled: false
+  interval: 21600
+  savebefore: true
+  broadcast: true
+  localfs:
+    enabled: true
+    worlds:
+    - '*'
+    MaxNumberOfWorldsBackups: 15
+    pluginsfolder: false
+    MaxNumberOfPluginsBackups: 15
+    excludefolders: []
+    destinationfolders:
+    - /home/minecraft-serwer/.
+    zip: false
+  ftp:
+    enabled: false
+    hostname: 127.0.0.1
+    port: 21
+    login: user
+    password: password
+    path: /asw/
+    worlds:
+    - '*'
+    pluginsfolder: false
+    excludefolders: []
+    maxNumberOfBackups: 4
+    zip: false
+  script:
+    enabled: false
+    scriptpath: ''
+purge:
+  enabled: false
+  interval: 86400
+  awaytime: 2592000
+  broadcast: true
+  wg:
+    enabled: true
+    regenpurgedregion: false
+    noregenoverlapregion: true
+  lwc:
+    enabled: true
+    deletepurgedblocks: false
+  mvinv:
+    enabled: true
+  pm:
+    enabled: true
+    regenpurgedplot: false
+  residence:
+    enabled: true
+    regenpurgedresidence: false
+  economy:
+    enabled: true
+  permissions:
+    enabled: true
+  dat:
+    enabled: true
+crashrestart:
+  enabled: false
+  startdelay: 20
+  scriptpath: ''
+  timeout: 60
+  juststop: false
+autorestart:
+  enabled: false
+  broadcast: true
+  time: []
+  countdown:
+    enabled: true
+    broadcastonsecond:
+    - 60
+    - 30
+    - 10
+    - 9
+    - 8
+    - 7
+    - 6
+    - 5
+    - 4
+    - 3
+    - 2
+    - 1
+  scriptpath: ''
+  juststop: false
+consolecommand:
+  timemode:
+    enabled: false
+    times: {}
+  intervalmode:
+    enabled: false
+    intervals: {}
+worldregen:
+  savewg: true
+  savefactions: true
+  savegp: true

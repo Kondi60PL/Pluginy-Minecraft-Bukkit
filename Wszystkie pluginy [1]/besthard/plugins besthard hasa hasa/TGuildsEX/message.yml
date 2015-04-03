@@ -1,0 +1,140 @@
+allowCommands:
+- '&7Dostepne komendy:'
+- '&3/g zaloz - &7Komenda od zakladania gildii.'
+- '&3/g dolacz - &7Komenda od dolaczania do gildii.'
+- '&3/g opusc - &7Komenda od opuszczania gildii.'
+- '&3/g dom - &7Komenda od teleportowania do domu gildii.'
+- '&3/g info - &7Komenda od sprawdzania informacji o gildii.'
+- '&3/g zalozyciel - &7Komenda dla zalozyciela gildii.'
+allowCommandsLider:
+- '&7Dostepne komendy dla zalozyciela:'
+- '&3/g usun - &7Komenda od usuwania gildii.'
+- '&3/g zapros - &7Komenda od zapraszania gracza do gildii.'
+- '&3/g wyrzuc - &7Komenda od wyrzucania gracza z gildii.'
+- '&3/g lider - &7Komenda od przekazywania lidera gildii.'
+- '&3/g mistrz - &7Komenda od awansowania mistrzow gildii.'
+- '&3/g pvp - &7Komenda od wlaczania pvp w gildii.'
+- '&3/g ustawdom - &7Komenda od ustawiania domu gildii.'
+- '&3/sojusz - &7Komenda od zarzadzania sojuszami gildii.'
+create:
+  command: zaloz
+  correctUsage: '&cPoprawne uzycie: &6/gildia zaloz <tag> <nazwa>'
+  world: '&4Blad: &cNa tym swiecie nie mozna zakladac gildii!'
+  tagShort: '&4Blad: &cTag musi miec min. 2 znaki!'
+  tagLong: '&4Blad: &cTag moze miec max. 5 znakow!'
+  nameShort: '&4Blad: &cNazwa musi miec min. 6 znakow!'
+  nameLong: '&4Blad: &cNazwa moze miec max. 32 znaki!'
+  isGuild: '&4Blad: &cJestes juz w innej gildii!'
+  closeSpawn: '&4Blad: &cJestes za blisko Spawnu!'
+  closeGuild: '&4Blad: &cJestes za blisko innej Gildii!'
+  isTag: '&4Blad: &cTag jest juz zajety!'
+  isName: '&4Blad: &cNazwa jest juz zajeta!'
+  noItems: '&4Blad: &cNie masz potrzebnych przedmiotow!'
+  create: '&aGildia &e[%tag%] %name% &azostala zalozona przez &e%player%&a!'
+remove:
+  command: usun
+  correctUsage: '&cPoprawne uzycie: &6/gildia usun POTWIERDZ'
+  noLider: '&4Blad: &cNie masz Lidera w zadnej Gildii!'
+  remove: '&aGildia &e[%tag%] %name% &azostala usunieta przez &e%player%&a!'
+invite:
+  command: zapros
+  correctUsage: '&cPoprawne uzycie: &6/gildia zapros <gracz>'
+  isOffline: '&4Blad: &cTen gracz nie jest Online!'
+  noMistrz: '&4Blad: &cNie jestes mistrzem zadnej Gildii!'
+  isGuild: '&4Blad: &cTen gracz ma juz Gildie!'
+  isMax: '&4Blad: &cNie mozesz miec wiecej osob w Gildii!'
+  sendMsg:
+  - '&aWyslales zaproszenie do gracza &e%player%&a.'
+  getMsg:
+  - '&aOtrzymales zaproszenie do gildii &e[%tag%] %name%&a.'
+  - '&aAby dolaczyc wpisz &f/gildia dolacz %tag%'
+  - '&aKoszt dolaczenia do gildii to &f%cost% &adiaxow.'
+  sendMsgCancel:
+  - '&aZaproszenie do gracza &6%player% &azostalo Anulowane!'
+  getMsgCancel:
+  - '&aZaproszenie od gildii &6[%tag%] %name% &azostalo Anulowane!'
+join:
+  command: dolacz
+  correctUsage: '&cPoprawne uzycie: &6/gildia dolacz <tag>'
+  isGuild: '&4Blad: &cPosiadasz juz Gildie!'
+  isNoGuild: '&4Blad: &cNie ma takiej Gildii!'
+  isNoInvite: '&4Blad: &cNie masz zaproszenia do tej Gildii!'
+  isNoItems: '&4Blad: &cPotrzebujesz %cost% diamentow!'
+  join: '&aDo Gildii &e[%tag%] %name% &adolaczyl nowy gracz &e%player%&a!'
+leave:
+  command: opusc
+  correctUsage: '&cPoprawne uzycie: &6/gildia opusc'
+  isNoGuild: '&4Blad: &cNie jestes w zadnej Gildii!'
+  isLider: '&4Blad: &cJestes Liderem Gildii. Nie mozesz jej opuscic!'
+  leave: '&aGracz &e%player% &aopuscil gildie &e[%tag%] %name%&a!'
+kick:
+  command: wyrzuc
+  correctUsage: '&cPoprawne uzycie: &6/gildia wyrzuc <tag>'
+  isOffline: '&4Blad: &cTen gracz nie jest Online!'
+  isOther: '&4Blad: &cNie mozesz wyrzucic samego siebie!'
+  isNoGuild: '&4Blad: &cTen gracz nie jest w Twojej Gildii!'
+  isNoMistrz: '&4Blad: &cNie jestes mistrzem zadnej Gildii!'
+  isMistrz: '&4Blad: &cNie mozesz wyrzucic tego gracza!'
+  kick: '&aGracz &e%player% &azostal wyrzucony z gildii &e[%tag%] %name% &aprzez &e%kicker%
+    &a!'
+lider:
+  command: lider
+  correctUsage: '&cPoprawne uzycie: &6/gildia lider <gracz>'
+  isOffline: '&4Blad: &cTen gracz nie jest Online!'
+  isNoLider: '&4Blad: &cNie jestes liderem zadnej Gildii!'
+  isNoGuild: '&4Blad: &cTen gracz nie jest w twojej Gildii!'
+  isOther: '&4Blad: &cNie mozesz dac lidera samemu sobie!'
+  isNoItems: '&4Blad: &cAby oddac lidera potrzebujesz 64xZloto!'
+  lider: '&aGracz &e%newlider% &azostal nowym Liderem Gildii &e[%tag%] %name%&a! %lider%'
+mistrz:
+  command: mistrz
+  correctUsage: '&cPoprawne uzycie: &6/gildia mistrz <gracz>'
+  isOffline: '&4Blad: &cTen gracz nie jest Online!'
+  isNoLider: '&4Blad: &cNie jestes liderem zadnej Gildii!'
+  isNoGuild: '&4Blad: &cTen gracz nie jest w twojej Gildii!'
+  isOther: '&4Blad: &cNie mozesz dac mistrza samemu sobie!'
+  mistrzSet: '&aGracz &e%player% &azostal mistrzem Gildii &e[%tag%] %name%'
+  mistrzUnset: '&aGracz &e%player% &anie jest juz mistrzem Gildii &e[%tag%] %name%'
+pvp:
+  command: pvp
+  correctUsage: '&cPoprawne uzycie: &6/gildia pvp'
+  isNoLider: '&4Blad: &cNie jestes liderem zadnej Gildii!'
+  pvpOn:
+  - '&8#############'
+  - '&7PvP &awlaczone!'
+  - '&8#############'
+  pvpOff:
+  - '&8#############'
+  - '&7PvP &cwylaczone!'
+  - '&8#############'
+home:
+  command: dom
+  correctUsage: '&cPoprawne uzycie: &6/gildia dom'
+  isNoGuild: '&4Blad: &cNie posiadasz Gildii!'
+  isGuild: '&4Blad: &cNie mozesz teleportowac sie na terenie innej Gildii!'
+  homeBefore: '&6Za %time% sekund zostaniesz teleportowany...'
+  homeAfter: '&6...Zostales teleportowany do domu Gildii!'
+sethome:
+  command: ustawdom
+  correctUsage: '&cPoprawne uzycie: &6/gildia ustawdom'
+  isNoLider: '&4Blad: &cNie jestes liderem zadnej Gildii!'
+  isNoGuild: '&4Blad: &cNie jestes na terenie swojej Gildii!'
+  sethome:
+  - '&aDom twojej gildii zostal ustawiony na kordach &ex: %x%, y: %y%, z: %z%'
+owner:
+  command: zalozyciel
+player:
+  correctUsage: '&cPoprawne Uzycie: &6/gracz <gracz>'
+  noPlayer: '&cNie ma takiego gracza!'
+  msg:
+  - '%player%'
+  - '%kills%'
+  - '%deaths%'
+  - '%points%'
+region:
+  joinEnemy: '&4Uwaga! Intruz na terenie twojej Gildii!'
+  join: '&cWszedles na teren gildii &6[%tag%] %name%&c!'
+  leave: '&cWyszedles z terenu gildii &6[%tag%] %name%&c!'
+  break: '&cNie mozesz niszczyc na terenie tej gildii!'
+  buildExplode: '&cNa terenie twojej gildii wybuchlo tnt. Nie mozesz budowac przez
+    %time% sekund'

@@ -1,0 +1,223 @@
+|22/01/2015 10:10:36|===========================[eastMySQL enabled]===========================|
+|22/01/2015 10:10:40|CREATE TABLE IF NOT EXISTS `tools_bans` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 10:10:40|CREATE TABLE IF NOT EXISTS `tools_warps` (`id` int(10) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`yaw` varchar(10) NOT NULL DEFAULT '0.0',`pitch` varchar(10) NOT NULL DEFAULT '0.0',PRIMARY KEY (`id`),UNIQUE KEY `name` (`name`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 10:10:40|CREATE TABLE IF NOT EXISTS `tools_users` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`gamemode` int(1) NOT NULL DEFAULT '0',`fly` int(1) NOT NULL DEFAULT '0',`god` int(1) NOT NULL DEFAULT '0',`homeWorld` varchar(255) DEFAULT NULL,`homeX` int(10) DEFAULT NULL,`homeY` int(10) DEFAULT NULL,`homeZ` int(10) DEFAULT NULL,`endertime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 10:10:40|CREATE TABLE IF NOT EXISTS `tools_mutes` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;|
+|22/01/2015 10:10:40|SELECT * FROM `tools_bans`|
+|22/01/2015 10:10:41|SELECT * FROM `tools_users`|
+|22/01/2015 10:10:41|SELECT * FROM `tools_warps`|
+|22/01/2015 10:10:41|SELECT * FROM `tools_mutes`|
+|22/01/2015 10:10:42|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 10:10:43|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 10:10:43|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 10:10:43|SELECT * FROM `guilds`|
+|22/01/2015 10:10:43|SELECT * FROM `players` WHERE `guild_tag`='GALA'|
+|22/01/2015 10:10:43|SELECT * FROM `players` WHERE `guild_tag`='BMSN'|
+|22/01/2015 10:10:43|SELECT * FROM `alliances`|
+|22/01/2015 10:11:47|DO 1|
+|22/01/2015 10:12:58|INSERT INTO `tools_users` SET `player`='Galaxy_PL', `world`='world', `x`='-120', `y`='70', `z`='-246', `gamemode`='0', `fly`='0', `endertime`='0' , `god`='0'|
+|22/01/2015 10:15:04|DELETE FROM `guilds` WHERE `tag`='GALA'|
+|22/01/2015 10:15:04|DELETE FROM `players` WHERE `guild_tag`='GALA'|
+|22/01/2015 10:15:05|DELETE FROM `alliances` WHERE `guild_1`='GALA' OR `guild_2`='GALA'|
+|22/01/2015 10:22:10|DO 1|
+|22/01/2015 10:32:24|DO 1|
+|22/01/2015 10:42:43|DO 1|
+|22/01/2015 10:46:19|===========================[eastMySQL enabled]===========================|
+|22/01/2015 10:46:27|CREATE TABLE IF NOT EXISTS `tools_bans` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 10:46:27|CREATE TABLE IF NOT EXISTS `tools_warps` (`id` int(10) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`yaw` varchar(10) NOT NULL DEFAULT '0.0',`pitch` varchar(10) NOT NULL DEFAULT '0.0',PRIMARY KEY (`id`),UNIQUE KEY `name` (`name`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 10:46:27|CREATE TABLE IF NOT EXISTS `tools_users` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`gamemode` int(1) NOT NULL DEFAULT '0',`fly` int(1) NOT NULL DEFAULT '0',`god` int(1) NOT NULL DEFAULT '0',`homeWorld` varchar(255) DEFAULT NULL,`homeX` int(10) DEFAULT NULL,`homeY` int(10) DEFAULT NULL,`homeZ` int(10) DEFAULT NULL,`endertime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 10:46:27|CREATE TABLE IF NOT EXISTS `tools_mutes` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;|
+|22/01/2015 10:46:27|SELECT * FROM `tools_bans`|
+|22/01/2015 10:46:28|SELECT * FROM `tools_users`|
+|22/01/2015 10:46:28|SELECT * FROM `tools_warps`|
+|22/01/2015 10:46:28|SELECT * FROM `tools_mutes`|
+|22/01/2015 10:46:29|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 10:46:29|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 10:46:30|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 10:46:30|SELECT * FROM `guilds`|
+|22/01/2015 10:46:30|SELECT * FROM `players` WHERE `guild_tag`='BMSN'|
+|22/01/2015 10:46:30|SELECT * FROM `alliances`|
+|22/01/2015 10:47:33|DO 1|
+|22/01/2015 10:57:36|DO 1|
+|22/01/2015 11:07:36|DO 1|
+|22/01/2015 11:17:12|===========================[eastMySQL enabled]===========================|
+|22/01/2015 11:17:16|CREATE TABLE IF NOT EXISTS `tools_bans` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 11:17:16|CREATE TABLE IF NOT EXISTS `tools_warps` (`id` int(10) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`yaw` varchar(10) NOT NULL DEFAULT '0.0',`pitch` varchar(10) NOT NULL DEFAULT '0.0',PRIMARY KEY (`id`),UNIQUE KEY `name` (`name`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 11:17:16|CREATE TABLE IF NOT EXISTS `tools_users` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`gamemode` int(1) NOT NULL DEFAULT '0',`fly` int(1) NOT NULL DEFAULT '0',`god` int(1) NOT NULL DEFAULT '0',`homeWorld` varchar(255) DEFAULT NULL,`homeX` int(10) DEFAULT NULL,`homeY` int(10) DEFAULT NULL,`homeZ` int(10) DEFAULT NULL,`endertime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 11:17:17|CREATE TABLE IF NOT EXISTS `tools_mutes` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;|
+|22/01/2015 11:17:17|SELECT * FROM `tools_bans`|
+|22/01/2015 11:17:17|SELECT * FROM `tools_users`|
+|22/01/2015 11:17:17|SELECT * FROM `tools_warps`|
+|22/01/2015 11:17:17|SELECT * FROM `tools_mutes`|
+|22/01/2015 11:17:18|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 11:17:18|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 11:17:18|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 11:17:18|SELECT * FROM `guilds`|
+|22/01/2015 11:17:19|SELECT * FROM `players` WHERE `guild_tag`='BMSN'|
+|22/01/2015 11:17:19|SELECT * FROM `alliances`|
+|22/01/2015 11:18:21|DO 1|
+|22/01/2015 11:20:15|==========================[eastMySQL disabaled]==========================|
+|22/01/2015 11:20:16|===========================[eastMySQL enabled]===========================|
+|22/01/2015 11:20:17|CREATE TABLE IF NOT EXISTS `tools_bans` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 11:20:17|CREATE TABLE IF NOT EXISTS `tools_warps` (`id` int(10) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`yaw` varchar(10) NOT NULL DEFAULT '0.0',`pitch` varchar(10) NOT NULL DEFAULT '0.0',PRIMARY KEY (`id`),UNIQUE KEY `name` (`name`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 11:20:18|CREATE TABLE IF NOT EXISTS `tools_users` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`gamemode` int(1) NOT NULL DEFAULT '0',`fly` int(1) NOT NULL DEFAULT '0',`god` int(1) NOT NULL DEFAULT '0',`homeWorld` varchar(255) DEFAULT NULL,`homeX` int(10) DEFAULT NULL,`homeY` int(10) DEFAULT NULL,`homeZ` int(10) DEFAULT NULL,`endertime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 11:20:18|CREATE TABLE IF NOT EXISTS `tools_mutes` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;|
+|22/01/2015 11:20:18|SELECT * FROM `tools_bans`|
+|22/01/2015 11:20:18|SELECT * FROM `tools_users`|
+|22/01/2015 11:20:18|SELECT * FROM `tools_warps`|
+|22/01/2015 11:20:19|SELECT * FROM `tools_mutes`|
+|22/01/2015 11:20:19|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 11:20:19|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 11:20:20|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 11:20:20|SELECT * FROM `guilds`|
+|22/01/2015 11:20:20|SELECT * FROM `players` WHERE `guild_tag`='BMSN'|
+|22/01/2015 11:20:20|SELECT * FROM `alliances`|
+|22/01/2015 16:37:12|===========================[eastMySQL enabled]===========================|
+|22/01/2015 16:37:15|CREATE TABLE IF NOT EXISTS `tools_bans` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:37:15|CREATE TABLE IF NOT EXISTS `tools_warps` (`id` int(10) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`yaw` varchar(10) NOT NULL DEFAULT '0.0',`pitch` varchar(10) NOT NULL DEFAULT '0.0',PRIMARY KEY (`id`),UNIQUE KEY `name` (`name`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:37:16|CREATE TABLE IF NOT EXISTS `tools_users` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`gamemode` int(1) NOT NULL DEFAULT '0',`fly` int(1) NOT NULL DEFAULT '0',`god` int(1) NOT NULL DEFAULT '0',`homeWorld` varchar(255) DEFAULT NULL,`homeX` int(10) DEFAULT NULL,`homeY` int(10) DEFAULT NULL,`homeZ` int(10) DEFAULT NULL,`endertime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:37:16|CREATE TABLE IF NOT EXISTS `tools_mutes` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;|
+|22/01/2015 16:37:16|SELECT * FROM `tools_bans`|
+|22/01/2015 16:37:16|SELECT * FROM `tools_users`|
+|22/01/2015 16:37:16|SELECT * FROM `tools_warps`|
+|22/01/2015 16:37:16|SELECT * FROM `tools_mutes`|
+|22/01/2015 16:37:18|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 16:37:18|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 16:37:18|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 16:37:18|SELECT * FROM `guilds`|
+|22/01/2015 16:37:19|SELECT * FROM `players` WHERE `guild_tag`='BMSN'|
+|22/01/2015 16:37:19|SELECT * FROM `alliances`|
+|22/01/2015 16:37:50|==========================[eastMySQL disabaled]==========================|
+|22/01/2015 16:37:52|===========================[eastMySQL enabled]===========================|
+|22/01/2015 16:37:54|CREATE TABLE IF NOT EXISTS `tools_bans` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:37:54|CREATE TABLE IF NOT EXISTS `tools_warps` (`id` int(10) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`yaw` varchar(10) NOT NULL DEFAULT '0.0',`pitch` varchar(10) NOT NULL DEFAULT '0.0',PRIMARY KEY (`id`),UNIQUE KEY `name` (`name`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:37:54|CREATE TABLE IF NOT EXISTS `tools_users` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`gamemode` int(1) NOT NULL DEFAULT '0',`fly` int(1) NOT NULL DEFAULT '0',`god` int(1) NOT NULL DEFAULT '0',`homeWorld` varchar(255) DEFAULT NULL,`homeX` int(10) DEFAULT NULL,`homeY` int(10) DEFAULT NULL,`homeZ` int(10) DEFAULT NULL,`endertime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:37:54|CREATE TABLE IF NOT EXISTS `tools_mutes` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;|
+|22/01/2015 16:37:54|SELECT * FROM `tools_bans`|
+|22/01/2015 16:37:54|SELECT * FROM `tools_users`|
+|22/01/2015 16:37:55|SELECT * FROM `tools_warps`|
+|22/01/2015 16:37:55|SELECT * FROM `tools_mutes`|
+|22/01/2015 16:37:56|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 16:37:56|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 16:37:57|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 16:37:57|SELECT * FROM `guilds`|
+|22/01/2015 16:37:57|SELECT * FROM `players` WHERE `guild_tag`='BMSN'|
+|22/01/2015 16:37:57|SELECT * FROM `alliances`|
+|22/01/2015 16:42:03|===========================[eastMySQL enabled]===========================|
+|22/01/2015 16:42:07|CREATE TABLE IF NOT EXISTS `tools_bans` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:42:07|CREATE TABLE IF NOT EXISTS `tools_warps` (`id` int(10) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`yaw` varchar(10) NOT NULL DEFAULT '0.0',`pitch` varchar(10) NOT NULL DEFAULT '0.0',PRIMARY KEY (`id`),UNIQUE KEY `name` (`name`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:42:07|CREATE TABLE IF NOT EXISTS `tools_users` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`gamemode` int(1) NOT NULL DEFAULT '0',`fly` int(1) NOT NULL DEFAULT '0',`god` int(1) NOT NULL DEFAULT '0',`homeWorld` varchar(255) DEFAULT NULL,`homeX` int(10) DEFAULT NULL,`homeY` int(10) DEFAULT NULL,`homeZ` int(10) DEFAULT NULL,`endertime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:42:08|CREATE TABLE IF NOT EXISTS `tools_mutes` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;|
+|22/01/2015 16:42:08|SELECT * FROM `tools_bans`|
+|22/01/2015 16:42:08|SELECT * FROM `tools_users`|
+|22/01/2015 16:42:08|SELECT * FROM `tools_warps`|
+|22/01/2015 16:42:08|SELECT * FROM `tools_mutes`|
+|22/01/2015 16:42:09|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 16:42:10|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 16:42:10|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 16:42:10|SELECT * FROM `guilds`|
+|22/01/2015 16:42:10|SELECT * FROM `players` WHERE `guild_tag`='BMSN'|
+|22/01/2015 16:42:11|SELECT * FROM `alliances`|
+|22/01/2015 16:43:18|DO 1|
+|22/01/2015 16:45:10|===========================[eastMySQL enabled]===========================|
+|22/01/2015 16:45:14|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 16:45:14|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 16:45:14|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 16:45:14|SELECT * FROM `guilds`|
+|22/01/2015 16:45:14|SELECT * FROM `players` WHERE `guild_tag`='BMSN'|
+|22/01/2015 16:45:15|SELECT * FROM `alliances`|
+|22/01/2015 16:46:25|DO 1|
+|22/01/2015 16:48:29|INSERT INTO `guilds` SET `tag`='GALA', `name`='GalaxyToKox', `leader`='Galaxy_PL', `owner`='Galaxy_PL', createtime='1421941709358' , expiretime='1423151309358', center='world;-75;-228', home='world;-75;73;-228';|
+|22/01/2015 16:48:29|INSERT INTO `players` SET `player`='Galaxy_PL', `guild_tag`='GALA'|
+|22/01/2015 16:49:58|UPDATE `guilds` SET `size`='26' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:49:59|UPDATE `guilds` SET `size`='27' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:49:59|UPDATE `guilds` SET `size`='28' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:00|UPDATE `guilds` SET `size`='29' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:01|UPDATE `guilds` SET `size`='30' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:01|UPDATE `guilds` SET `size`='31' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:02|UPDATE `guilds` SET `size`='32' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:02|UPDATE `guilds` SET `size`='33' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:02|UPDATE `guilds` SET `size`='34' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:03|UPDATE `guilds` SET `size`='35' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:03|UPDATE `guilds` SET `size`='36' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:04|UPDATE `guilds` SET `size`='37' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:04|UPDATE `guilds` SET `size`='38' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:06|UPDATE `guilds` SET `size`='39' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:07|UPDATE `guilds` SET `size`='40' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:07|UPDATE `guilds` SET `size`='41' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:08|UPDATE `guilds` SET `size`='42' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:08|UPDATE `guilds` SET `size`='43' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:09|UPDATE `guilds` SET `size`='44' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:09|UPDATE `guilds` SET `size`='45' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:11|UPDATE `guilds` SET `size`='46' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:12|UPDATE `guilds` SET `size`='47' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:12|UPDATE `guilds` SET `size`='48' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:13|UPDATE `guilds` SET `size`='49' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:50:21|UPDATE `guilds` SET `size`='50' WHERE `tag`='GALA' LIMIT 1|
+|22/01/2015 16:53:08|===========================[eastMySQL enabled]===========================|
+|22/01/2015 16:53:11|CREATE TABLE IF NOT EXISTS `tools_bans` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:53:11|CREATE TABLE IF NOT EXISTS `tools_warps` (`id` int(10) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`yaw` varchar(10) NOT NULL DEFAULT '0.0',`pitch` varchar(10) NOT NULL DEFAULT '0.0',PRIMARY KEY (`id`),UNIQUE KEY `name` (`name`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:53:11|CREATE TABLE IF NOT EXISTS `tools_users` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`gamemode` int(1) NOT NULL DEFAULT '0',`fly` int(1) NOT NULL DEFAULT '0',`god` int(1) NOT NULL DEFAULT '0',`homeWorld` varchar(255) DEFAULT NULL,`homeX` int(10) DEFAULT NULL,`homeY` int(10) DEFAULT NULL,`homeZ` int(10) DEFAULT NULL,`endertime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 16:53:11|CREATE TABLE IF NOT EXISTS `tools_mutes` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;|
+|22/01/2015 16:53:11|SELECT * FROM `tools_bans`|
+|22/01/2015 16:53:12|SELECT * FROM `tools_users`|
+|22/01/2015 16:53:12|SELECT * FROM `tools_warps`|
+|22/01/2015 16:53:12|SELECT * FROM `tools_mutes`|
+|22/01/2015 16:53:13|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 16:53:13|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 16:53:14|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 16:53:14|SELECT * FROM `guilds`|
+|22/01/2015 16:53:14|SELECT * FROM `players` WHERE `guild_tag`='GALA'|
+|22/01/2015 16:53:14|SELECT * FROM `players` WHERE `guild_tag`='BMSN'|
+|22/01/2015 16:53:14|SELECT * FROM `alliances`|
+|22/01/2015 16:54:23|DO 1|
+|22/01/2015 16:55:59|DELETE FROM `guilds` WHERE `tag`='BMSN'|
+|22/01/2015 16:55:59|DELETE FROM `players` WHERE `guild_tag`='BMSN'|
+|22/01/2015 16:55:59|DELETE FROM `alliances` WHERE `guild_1`='BMSN' OR `guild_2`='BMSN'|
+|22/01/2015 17:04:23|===========================[eastMySQL enabled]===========================|
+|22/01/2015 17:04:26|CREATE TABLE IF NOT EXISTS `tools_bans` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 17:04:27|CREATE TABLE IF NOT EXISTS `tools_warps` (`id` int(10) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`yaw` varchar(10) NOT NULL DEFAULT '0.0',`pitch` varchar(10) NOT NULL DEFAULT '0.0',PRIMARY KEY (`id`),UNIQUE KEY `name` (`name`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 17:04:27|CREATE TABLE IF NOT EXISTS `tools_users` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`gamemode` int(1) NOT NULL DEFAULT '0',`fly` int(1) NOT NULL DEFAULT '0',`god` int(1) NOT NULL DEFAULT '0',`homeWorld` varchar(255) DEFAULT NULL,`homeX` int(10) DEFAULT NULL,`homeY` int(10) DEFAULT NULL,`homeZ` int(10) DEFAULT NULL,`endertime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 17:04:27|CREATE TABLE IF NOT EXISTS `tools_mutes` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;|
+|22/01/2015 17:04:27|SELECT * FROM `tools_bans`|
+|22/01/2015 17:04:27|SELECT * FROM `tools_users`|
+|22/01/2015 17:04:27|SELECT * FROM `tools_warps`|
+|22/01/2015 17:04:27|SELECT * FROM `tools_mutes`|
+|22/01/2015 17:04:28|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 17:04:28|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 17:04:28|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 17:04:29|SELECT * FROM `guilds`|
+|22/01/2015 17:04:29|SELECT * FROM `players` WHERE `guild_tag`='GALA'|
+|22/01/2015 17:04:29|SELECT * FROM `alliances`|
+|22/01/2015 17:05:05|DELETE FROM `guilds` WHERE `tag`='GALA'|
+|22/01/2015 17:05:06|DELETE FROM `players` WHERE `guild_tag`='GALA'|
+|22/01/2015 17:05:06|DELETE FROM `alliances` WHERE `guild_1`='GALA' OR `guild_2`='GALA'|
+|22/01/2015 17:07:19|===========================[eastMySQL enabled]===========================|
+|22/01/2015 17:07:22|CREATE TABLE IF NOT EXISTS `tools_bans` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL, PRIMARY KEY (`id`), UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 17:07:22|CREATE TABLE IF NOT EXISTS `tools_warps` (`id` int(10) NOT NULL AUTO_INCREMENT,`name` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`yaw` varchar(10) NOT NULL DEFAULT '0.0',`pitch` varchar(10) NOT NULL DEFAULT '0.0',PRIMARY KEY (`id`),UNIQUE KEY `name` (`name`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 17:07:22|CREATE TABLE IF NOT EXISTS `tools_users` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`world` varchar(255) NOT NULL,`x` int(10) NOT NULL,`y` int(10) NOT NULL,`z` int(10) NOT NULL,`gamemode` int(1) NOT NULL DEFAULT '0',`fly` int(1) NOT NULL DEFAULT '0',`god` int(1) NOT NULL DEFAULT '0',`homeWorld` varchar(255) DEFAULT NULL,`homeX` int(10) DEFAULT NULL,`homeY` int(10) DEFAULT NULL,`homeZ` int(10) DEFAULT NULL,`endertime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1;|
+|22/01/2015 17:07:22|CREATE TABLE IF NOT EXISTS `tools_mutes` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`reason` varchar(255) NOT NULL,`admin` varchar(255) NOT NULL,`createTime` bigint(20) NOT NULL,`expireTime` bigint(20) NOT NULL,PRIMARY KEY (`id`),UNIQUE KEY `player` (`player`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;|
+|22/01/2015 17:07:22|SELECT * FROM `tools_bans`|
+|22/01/2015 17:07:22|SELECT * FROM `tools_users`|
+|22/01/2015 17:07:23|SELECT * FROM `tools_warps`|
+|22/01/2015 17:07:23|SELECT * FROM `tools_mutes`|
+|22/01/2015 17:07:24|CREATE TABLE IF NOT EXISTS `players` (`id` int(10) NOT NULL AUTO_INCREMENT,`player` varchar(255) NOT NULL,`guild_tag` varchar(4) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;|
+|22/01/2015 17:07:24|CREATE TABLE IF NOT EXISTS `guilds` (`id` int(11) NOT NULL AUTO_INCREMENT,`tag` varchar(4) NOT NULL,`name` varchar(255) NOT NULL,`owner` varchar(255) NOT NULL,`leader` varchar(255) NOT NULL,`home` varchar(255) DEFAULT NULL,`center` varchar(255) DEFAULT NULL,`playerslimit` int(10) NOT NULL DEFAULT '25',`size` int(2) NOT NULL DEFAULT '25',`pvp` int(1) NOT NULL DEFAULT '0',`createtime` bigint(255) NOT NULL DEFAULT '0',`expiretime` bigint(255) NOT NULL DEFAULT '0',PRIMARY KEY (`id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 17:07:24|CREATE TABLE IF NOT EXISTS `alliances` (`id` int(10) NOT NULL AUTO_INCREMENT,`guild_1` varchar(4) NOT NULL,`guild_2` varchar(4) NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;|
+|22/01/2015 17:07:24|SELECT * FROM `guilds`|
+|22/01/2015 17:07:24|SELECT * FROM `alliances`|
+|22/01/2015 17:08:31|DO 1|
+|22/01/2015 17:14:17|UPDATE `tools_users` SET `world`='Spawn', `x`='0', `y`='9', `z`='0', `gamemode`='1', `fly`='1', `god`='0', `homeWorld`='null', `homeX`='0', `homeY`='0', `homeZ`='0', `endertime`='0' WHERE `player`='Galaxy_PL'|
+|22/01/2015 17:18:17|UPDATE `tools_users` SET `world`='Spawn', `x`='-6', `y`='5', `z`='-5', `gamemode`='1', `fly`='1', `god`='0', `homeWorld`='null', `homeX`='0', `homeY`='0', `homeZ`='0', `endertime`='0' WHERE `player`='Galaxy_PL'|
+|22/01/2015 17:18:56|DO 1|
+|22/01/2015 17:19:27|UPDATE `tools_users` SET `world`='Spawn', `x`='0', `y`='5', `z`='3', `gamemode`='1', `fly`='1', `god`='0', `homeWorld`='null', `homeX`='0', `homeY`='0', `homeZ`='0', `endertime`='0' WHERE `player`='Galaxy_PL'|
+|22/01/2015 17:20:03|UPDATE `tools_users` SET `world`='Spawn', `x`='-1', `y`='4', `z`='3', `gamemode`='1', `fly`='1', `god`='0', `homeWorld`='null', `homeX`='0', `homeY`='0', `homeZ`='0', `endertime`='0' WHERE `player`='Galaxy_PL'|
+|22/01/2015 17:20:46|UPDATE `tools_users` SET `world`='Spawn', `x`='-4', `y`='4', `z`='3', `gamemode`='1', `fly`='1', `god`='0', `homeWorld`='null', `homeX`='0', `homeY`='0', `homeZ`='0', `endertime`='0' WHERE `player`='Galaxy_PL'|
+|22/01/2015 17:21:18|UPDATE `tools_users` SET `world`='Spawn', `x`='4', `y`='9', `z`='-6', `gamemode`='1', `fly`='1', `god`='0', `homeWorld`='null', `homeX`='0', `homeY`='0', `homeZ`='0', `endertime`='0' WHERE `player`='Galaxy_PL'|
+|22/01/2015 17:22:06|UPDATE `tools_users` SET `world`='Spawn', `x`='0', `y`='5', `z`='1', `gamemode`='1', `fly`='1', `god`='0', `homeWorld`='null', `homeX`='0', `homeY`='0', `homeZ`='0', `endertime`='0' WHERE `player`='Galaxy_PL'|
+|22/01/2015 17:25:56|UPDATE `tools_users` SET `world`='Spawn', `x`='7', `y`='4', `z`='7', `gamemode`='1', `fly`='1', `god`='0', `homeWorld`='null', `homeX`='0', `homeY`='0', `homeZ`='0', `endertime`='0' WHERE `player`='Galaxy_PL'|
+|22/01/2015 17:28:33|UPDATE `tools_users` SET `world`='Spawn', `x`='9', `y`='8', `z`='-4', `gamemode`='1', `fly`='1', `god`='0', `homeWorld`='null', `homeX`='0', `homeY`='0', `homeZ`='0', `endertime`='0' WHERE `player`='Galaxy_PL'|
+|22/01/2015 17:29:23|DO 1|
+|22/01/2015 17:39:44|DO 1|
+|22/01/2015 17:45:18|UPDATE `tools_users` SET `world`='Spawn', `x`='9', `y`='8', `z`='1', `gamemode`='1', `fly`='1', `god`='0', `homeWorld`='null', `homeX`='0', `homeY`='0', `homeZ`='0', `endertime`='0' WHERE `player`='Galaxy_PL'|
+|22/01/2015 17:45:25|==========================[eastMySQL disabaled]==========================|

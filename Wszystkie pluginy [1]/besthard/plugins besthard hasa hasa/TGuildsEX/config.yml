@@ -1,0 +1,46 @@
+MySQL:
+  Host: 127.0.0.1:3306
+  Username: nazwa user
+  Password: haslo
+  Database: haslo
+config:
+  guild:
+    items:
+    - 49:0 64
+    - 388:0 32
+    - 264:0 32
+    - 47:0 32
+    - 368:0 9
+    - 322:0 16
+    - 145:0 10
+    world: world
+    spawn: 500
+    guild: 250
+    promien: 25
+    maxPlayers:
+      min: 20
+      max: 30
+      resizeUp: 5
+    teleport:
+      delay: 5
+    join:
+      cost: 8
+    alliance:
+      max: 3
+      cost: 4
+    explode:
+      time: 120
+    setlider:
+    - 322:1 64
+  tnt:
+    power:
+      up: 0.5
+      direction: 0.3
+    crafting:
+    - 32:0-32:0-32:0
+    - 32:0-32:0-32:0
+    - 32:0-32:0-32:0
+  user:
+    startPoints: 500
+  tag: '&8[&2%tag%&8]'
+  pkt: '&7[&c%points%&7]'

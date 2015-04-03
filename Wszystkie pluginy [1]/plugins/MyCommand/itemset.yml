@@ -1,0 +1,14 @@
+#-----------------------------------------------------------------------------------------------------------#
+#							  MyCommand ItemSet DataBase File (last update v5.0.0)							#
+#																											#
+#  					BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/    					#
+#-----------------------------------------------------------------------------------------------------------#
+#If autoload it's true,the plugin automatically load a custom set from "set_name".
+config:
+  autoload: false
+  set_name: testlist
+#Over here the customs set.Use ; for split the multiple lines.
+itemset:
+  testlist:
+    STICK: '/say stick;/list'
+    BONE: '/say bone'

@@ -1,0 +1,7 @@
+message: +player is now a(n) +group for+time
+aWhile: ' a while'
+ever: ever
+broadcastRankChange: true
+allowOpsChanges: true
+logEverything: false
+checkInterval: 10

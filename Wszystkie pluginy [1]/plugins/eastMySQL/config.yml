@@ -1,0 +1,7 @@
+config:
+  mysql:
+    host: '94.23.14.31'
+    port: 3306
+    user: 's40551'
+    pass: 'DhYF3pBjrE'
+    base: 's40551'

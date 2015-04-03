@@ -1,0 +1,15 @@
+config:
+  gracz:
+    exp: 4
+    diament: 1.9
+    szmaragd: 2.2
+    zelazo: 3.5
+    zloto: 2.9
+    proch: 4.2
+    redstone: 6.4
+    lapis: 0.9
+    perly: 7.8
+    obsy: 6.5
+    slime: 1.3
+    piasek: 1.8
+    wegiel: 8.9

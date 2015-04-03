@@ -1,0 +1,29 @@
+config:
+  msg:
+  - "&8#########&b> &7&lGalaxyKOX &b<&8#########"
+  - "&8# &b> &7Diament&7: &b3.00% (Y: <20)"
+  - "&8# &b> &7Emerald&7: &b7.60% (Y: <30)"
+  - "&8# &b> &7Zelazo&7: &b8.80% (Y: <64)"
+  - "&8# &b> &7Zloto&7: &b4.00% (Y: <30)"
+  - "&8# &b> &7Gunpowder&7: &b2.90% (Y: <64)"
+  - "&8# &b> &7Redstone&7: &b2.90% (Y: <20)"
+  - "&8# &b> &7Lapis&7: &b2.90% (Y: <20)"
+  - "&8# &b> &7Enderpearl&7: &b0.20% (Y: <30)"
+  - "&8# &b> &7Slimeball&7: &b3.00% (Y: <30)"
+  - "&8# &b> &7Wegiel&7: &b6.00% (Y: <64)"
+  - "&8######"
+  - "&8# &b> &7Konto &3V.I.P &7posiada &3dwa razy &7wiekszy drop."
+  - "&8###########################"
+  gracz:
+    exp: 1
+    diament: 0.5
+    szmaragd: 1.2
+    zelazo: 1.5
+    zloto: 1.1
+    proch: 0.65
+    redstone: 1.2
+    lapis: 1.5
+    perly: 0.1
+    slime: 0.6
+    piasek: 1.8 
+    wegiel: 1.5

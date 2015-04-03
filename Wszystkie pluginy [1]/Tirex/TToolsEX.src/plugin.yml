@@ -1,0 +1,154 @@
+name: TToolsEX
+main: com.gmail.tirexgta.ttoolsex.Main
+version: 1.0
+author: TiREX
+
+commands:
+    ranga:
+        description: tirex.komenda
+        permission: tirex.ranga
+    wymiana:
+        description: tirex.komenda
+        permission: tirex.wymiana
+    plecak:
+        description: tirex.komenda
+        permission: tirex.plecak
+    setspawn:
+        description: tirex.komenda
+        permission: tirex.setspawn
+    kickall:
+        description: tirex.komenda(.bypass)nie mozna kickowac
+        permission: tirex.kickall
+    ban:
+        description: tirex.komenda(.bypass)nie mozna zbanowac
+        permission: tirex.ban
+    unban:
+        description: tirex.komenda
+        permission: tirex.unban
+    broadcast:
+        description: tirex.komenda
+        permission: tirex.broadcast
+    clear:
+        description: tirex.komenda
+        permission: tirex.clear
+    dispenser:
+        description: tirex.komenda
+        permission: tirex.dispenser
+    enchant:
+        description: tirex.komenda
+        permission: tirex.enchant
+    fly:
+        description: tirex.komenda
+        permission: tirex.fly
+    gamemode:
+        description: tirex.komenda
+        permission: tirex.gamemode
+        aliases: [gm]
+    give:
+        description: tirex.komenda
+        permission: tirex.give
+    god:
+        description: tirex.komenda
+        permission: tirex.god
+    hat:
+        description: tirex.komenda(.other)moze dawac innym
+        permission: tirex.hat
+    head:
+        description: tirex.komenda
+        permission: tirex.head
+    heal:
+        description: tirex.komenda
+        permission: tirex.head
+    help:
+        description: tirex.komenda
+        permission: tirex.help
+        aliases: [h]
+    home:
+        description: tirex.komenda(.nodelay)
+        permission: tirex.home
+    ignore:
+        description: tirex.komenda
+        permission: tirex.ignore
+    invincible:
+        description: tirex.komenda
+        permission: tirex.invincible
+    item:
+        description: tirex.komenda
+        permission: tirex.item
+    kick:
+        description: tirex.komenda(.bypass)nie mozna kickowac
+        permission: tirex.kick
+    list:
+        description: tirex.komenda
+        permission: tirex.list
+    message:
+        description: tirex.komenda
+        permission: tirex.message
+    mute:
+        description: tirex.komenda(.bypass)nie mozna mutowac
+        permission: tirex.mute
+    repair:
+        description: tirex.komenda
+        permission: tirex.repair
+    reply:
+        description: tirex.komenda
+        permission: tirex.reply
+        aliases: [r]
+    sethome:
+        description: tirex.komenda
+        permission: tirex.sethome
+    slotmanager:
+        description: tirex.komenda
+        permission: tirex.slotmanager
+    spawn:
+        description: tirex.komenda(.nocooldown) lub (.nodelay)natychmiastowa teleportacja
+        permission: tirex.spawn
+    spawner:
+        description: tirex.komenda
+        permission: tirex.spawner
+    speed:
+        description: tirex.komenda
+        permission: tirex.speed
+        aliases: [predkosc]
+    tell:
+        description: tirex.komenda
+        permission: tirex.tell
+        aliases: [msg, w]
+    time:
+        description: tirex.komenda
+        permission: tirex.time
+        aliases: [czas]
+    reloadtools:
+        description: tirex.komenda
+        permission: tirex.reloadtools
+        aliases: [rltools]
+    tp:
+        description: tirex.komenda
+        permission: tirex.tp
+    tpa:
+        description: tirex.komenda
+        permission: tirex.tpa
+    tpaccept:
+        description: tirex.komenda(.nodelay)
+        permission: tirex.tpaccept
+    tpdeny:
+        description: tirex.komenda
+        permission: tirex.tpdeny
+    tppos:
+        description: tirex.komenda(.nodelay)
+        permission: tirex.tppos
+    unmute:
+        description: tirex.komenda
+        permission: tirex.weather
+    weather:
+        description: tirex.komenda
+        permission: tirex.weather
+    randomtp:
+        description: tirex.komenda
+        permission: tirex.randomtp
+    skin:
+        description: tirex.komenda(.other)
+        permission: tirex.skin
+    rangi:
+        description: tirex.komenda
+        permission: tirex.rangi

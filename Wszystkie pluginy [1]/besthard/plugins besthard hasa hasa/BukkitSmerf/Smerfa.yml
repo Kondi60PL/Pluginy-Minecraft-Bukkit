@@ -1,0 +1,46 @@
+# Welcome in configuration file of my plugin! :> some info:
+#     useLogIt/useAuthme/useXAuth: plugin used to auto-login players with premium - LogIt is the best :>
+#     autoProtect: if you enable that, then every no-premium user will be saved, and if someone buy premium for that nickname - that will be still account of that no-premium user, but if player use correct password - then will be updated to premium user. (don't work with xAuth)
+#     exceptions: players from that list will be logged as no-premium, even if nickname is premium - use that to protect some players!
+#     enabledLogin: Players from that list must login even if they have premium.
+#     offlineWhiteListEnabled: enable white-list for no-premium players, if true then only players from that list can join to server. (works only for no-premium, premium can join even if is in list)
+#     offlineWhiteList: white-list.
+#     offlineBlackList: Players from that list can't join to server (works only for no-premium, premium can join even if is in list) RASIZM! :P
+# 
+#  This plugin contains special functions for 'Skript' plugin, list of it: 
+#     player (is|has) [not] premium
+#     player is [not] exception
+#     player has [not] enabledLogin
+#     player is [not] whitelisted
+#     player is [not] blacklisted
+#     player add to blacklisted
+#     player remove from blacklisted
+#     player add to enabledLogin
+#     player remove from enabledLogin
+#     player add to exceptions
+#     player remove from exceptions
+#     disable premium for player
+#     enable premium for player
+#     remove premium for player
+#     player add to whitelisted
+#     player remove from whitelisted
+#     enable AutoIn whitelist
+#     disable AutoIn whitelist
+#     on force login:
+#             Skript support added by: Dzikoysk
+debug: true
+useAuthme: false
+useLogIt: true
+useXAuth: false
+autoProtect: false
+offlineWhiteListEnabled: false
+offlineWhiteList:
+- BukkitSmerf
+offlineBlackList:
+- NickHere
+exceptions:
+- BukkitSmerf
+enabledLogin:
+- BukkitSmerf
+noPremiumList: []
+dump: {}
